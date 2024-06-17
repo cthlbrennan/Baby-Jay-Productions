@@ -1,0 +1,26 @@
+/* wildcard selector overriding browser defaults */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* generic style */
+body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+/* header element */
+header {
+    background-color: red;
+}
+/* main element */
+
+main {
+    background-color: blue;
+}
+
+/* footer element */
+footer { 
+    background-color: aqua;
+}
