@@ -147,19 +147,14 @@ looks acceptable.*/
         display: none;
     }
 
-    #menu {
-        display: flex;
-    }
-
     /* padding to menu items so there's some room between them */
     #menu > li {
         padding-left: 20px;
     }
 }
 
-
-/* for larger tablets*/
 @media screen and (min-width: 813px) {
-    /* arrange menu items side by side */
-
+    #menu {
+        display: flex;
+    }
 }
