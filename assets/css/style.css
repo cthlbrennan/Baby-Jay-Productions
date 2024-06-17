@@ -56,3 +56,15 @@ footer {
     text-decoration: none;
     color: #9A0431;
 }
+
+#menu {
+    color:#9A0431;
+    font-size: 110%;
+    letter-spacing: 4px;
+    list-style-type: none;
+}
+
+#menu > li > a {
+    text-decoration: none;
+    color:#9A0431
+}
