@@ -42,10 +42,6 @@ header > div > span {
     justify-content: center;
 }
 
-.float-right {
-    float: right;
-}
-
 h1 {
     font-family: 'Fira Mono', sans-serif;
     /*font-size: 90%;*/
@@ -119,6 +115,7 @@ main {
     flex-grow: 1;
     flex-shrink: 0;
     flex-basis: auto;
+    margin-top: 100px;
 }
 
 /* footer element */
