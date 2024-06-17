@@ -35,6 +35,7 @@ header {
 
 h1 {
     font-family: 'Fira Mono', sans-serif;
+    /*font-size: 90%;*/
     }
 
 header h1 {
@@ -88,16 +89,19 @@ nav {
 }
 
 .nav-toggle-label {
-
-    font-size: 200%;
-  
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 300%;
+    vertical-align: -100%;
    
 }
 
 /* main element */
 
 main {
-    background-color: blue;
+    background-color: white;
     /* flex set to keep footer down at bottom of page */
     flex-grow: 1;
     flex-shrink: 0;
