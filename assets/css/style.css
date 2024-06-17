@@ -1,3 +1,6 @@
+/* add Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Cousine:ital,wght@0,400;0,700;1,400;1,700&family=Fira+Mono:wght@400;500;700&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+
 /* wildcard selector to override browser defaults */
 * {
     padding: 0;
@@ -11,7 +14,8 @@ body {
     display: flex;
     flex-direction: column;
     color: black;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: 'Roboto Mono', sans-serif;
+
 }
 
 /* header element */
