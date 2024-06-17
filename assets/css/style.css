@@ -172,3 +172,16 @@ looks acceptable.*/
      }
 
 }
+
+@media screen and (min-width: 992px) {
+
+    /* Code snippet below is based on https://www.w3schools.com/css/css3_buttons.asp */ 
+    #menu > li > a:hover {
+        text-decoration: underline solid #9A0431;
+        background-color: #007360;
+        color: #F6F188;
+        transition-duration: 0.4s;
+        padding: 5px 5px;
+    }
+
+}
