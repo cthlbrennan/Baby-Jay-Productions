@@ -74,6 +74,7 @@ nav {
     padding: 0 1rem;
     display: none;
     top: 100%;
+    
 }
 
 /* nav toggle */
@@ -83,11 +84,14 @@ nav {
 
 #nav-toggle {
     display:none;
+    align-items: center;
 }
 
 .nav-toggle-label {
+
     font-size: 200%;
-     
+  
+   
 }
 
 /* main element */
