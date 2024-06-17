@@ -58,13 +58,18 @@ footer {
 }
 
 #menu {
-    color:#9A0431;
     font-size: 110%;
+    font-family: 'Cousine', sans-serif;
     letter-spacing: 4px;
     list-style-type: none;
+    line-height: 35px;
 }
 
 #menu > li > a {
     text-decoration: none;
     color:#9A0431
+}
+
+.active-page {
+    border-bottom: 1px solid #9A0431;
 }
