@@ -136,6 +136,7 @@ footer {
 #social-media-links a i {
     color: #F6F188;
     font-size: 170%;
+    padding: 10px 10px;
 
 }
 
@@ -201,4 +202,14 @@ looks acceptable.*/
         padding: 5px 5px;
     }
 
+    #social-media-links > li > a > i:hover {
+        color: #9A0431;
+        background-color: #F6F188;
+        padding: 10px 10px;
+        transition-duration: 0.4s;
+    }
+    
+
+
+        
 }
