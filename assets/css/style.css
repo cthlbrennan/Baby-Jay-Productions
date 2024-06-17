@@ -60,7 +60,7 @@ header h1 {
 #menu {
     font-size: 110%;
     font-family: 'Cousine', sans-serif;
-    letter-spacing: 4px;
+    letter-spacing: 2px;
     list-style-type: none;
     line-height: 35px;
 }
@@ -121,4 +121,45 @@ main {
 /* footer element */
 footer { 
     background-color: aqua;
+}
+
+/* The style rules below are relate to screens equal or greater than 768px in width.
+For smaller tablets (768px to 812px), the navigation bar looks poor with the menu ID given a display:flex declaration, 
+as per  the Code Institute's Love Running Walkthrough project. With my large, bold logo font, 
+and the font and letter-spacing of the menu items, the resultant view is poor and jumbled (see bug fix 3 in the README.md
+for more information on this). As such, I have written the CSS rules below so that display:flex is not applied to the menu ID 
+element until the screen is 813px in width, at which point display:flex arrangement of the nav bar menu items 
+looks acceptable.*/
+
+@media screen and (min-width: 768px) {
+    
+    /* header element */
+    nav {
+        display: block;
+        position: relative;
+        box-shadow: none;
+        width: fit-content;
+        
+    }
+
+    /* no need for nav-toggle-label if nav options are visible at this screen width */
+    .nav-toggle-label {
+        display: none;
+    }
+
+    #menu {
+        display: flex;
+    }
+
+    /* padding to menu items so there's some room between them */
+    #menu > li {
+        padding-left: 20px;
+    }
+}
+
+
+/* for larger tablets*/
+@media screen and (min-width: 813px) {
+    /* arrange menu items side by side */
+
 }
