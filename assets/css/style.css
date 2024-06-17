@@ -32,6 +32,10 @@ h1 {
     font-family: 'Fira Mono', sans-serif;
 }
 
+header h1 {
+    letter-spacing: 4px;
+}
+
 /* main element */
 
 main {
@@ -45,4 +49,10 @@ main {
 /* footer element */
 footer { 
     background-color: aqua;
+}
+
+
+#logo {
+    text-decoration: none;
+    color: #9A0431;
 }
