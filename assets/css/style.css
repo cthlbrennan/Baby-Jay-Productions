@@ -25,16 +25,51 @@ header {
     position: fixed;
     width: 100%;
     z-index: 10;
-    box-shadow: 0 3px 5px #000000;
+    box-shadow: 0 2px 4px #000000;
 }
 
 h1 {
     font-family: 'Fira Mono', sans-serif;
-}
+    }
 
 header h1 {
     letter-spacing: 4px;
 }
+
+#logo {
+    text-decoration: none;
+    color: #9A0431;
+}
+
+/*styling for nav bar options */
+#menu {
+    font-size: 110%;
+    font-family: 'Cousine', sans-serif;
+    letter-spacing: 4px;
+    list-style-type: none;
+    line-height: 35px;
+}
+
+#menu > li > a {
+    text-decoration: none;
+    color:#9A0431
+}
+
+/* active-page class tells user where they are in the website when looking at nav bar */
+.active-page {
+    border-bottom: 1px solid #9A0431;
+}
+
+nav {
+    position: absolute;
+    background-color: #F6F188;
+    width: 100%;
+    box-shadow: 0 2px 4px #000000;
+    left: 0;
+    padding: 0 1rem;
+}
+
+
 
 /* main element */
 
@@ -49,27 +84,4 @@ main {
 /* footer element */
 footer { 
     background-color: aqua;
-}
-
-
-#logo {
-    text-decoration: none;
-    color: #9A0431;
-}
-
-#menu {
-    font-size: 110%;
-    font-family: 'Cousine', sans-serif;
-    letter-spacing: 4px;
-    list-style-type: none;
-    line-height: 35px;
-}
-
-#menu > li > a {
-    text-decoration: none;
-    color:#9A0431
-}
-
-.active-page {
-    border-bottom: 1px solid #9A0431;
 }
