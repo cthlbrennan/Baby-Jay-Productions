@@ -22,10 +22,15 @@ body {
 header {
     background-color: #F6F188;
     padding: 10px 10px;
+    margin-bottom: 0;
+    border-bottom: 0;
     position: fixed;
     width: 100%;
     z-index: 10;
     box-shadow: 0 2px 4px #000000;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
 }
 
 h1 {
@@ -33,7 +38,7 @@ h1 {
     }
 
 header h1 {
-    letter-spacing: 4px;
+    letter-spacing: 2px;
 }
 
 #logo {
@@ -64,12 +69,26 @@ nav {
     position: absolute;
     background-color: #F6F188;
     width: 100%;
-    box-shadow: 0 2px 4px #000000;
+    box-shadow: 0 2px 2px #000000;
     left: 0;
     padding: 0 1rem;
+    display: none;
+    top: 100%;
 }
 
+/* nav toggle */
+#nav-toggle:checked~nav {
+    display:block;
+}
 
+#nav-toggle {
+    display:none;
+}
+
+.nav-toggle-label {
+    font-size: 200%;
+     
+}
 
 /* main element */
 
