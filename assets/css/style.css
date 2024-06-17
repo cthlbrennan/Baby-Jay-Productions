@@ -120,7 +120,8 @@ main {
 
 /* footer element */
 footer { 
-    background-color: aqua;
+    background-color:#9A0431;
+    color: #F6F188;
 }
 
 /* The style rules below are relate to screens equal or greater than 768px in width.
