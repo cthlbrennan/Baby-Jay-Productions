@@ -22,6 +22,11 @@ body {
 header {
     background-color: red;
 }
+
+h1 {
+    font-family: 'Fira Mono', sans-serif;
+}
+
 /* main element */
 
 main {
