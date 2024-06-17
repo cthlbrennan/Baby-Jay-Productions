@@ -134,6 +134,11 @@ looks acceptable.*/
 @media screen and (min-width: 768px) {
     
     /* header element */
+
+    header {
+        box-shadow: none;
+    }
+
     nav {
         display: block;
         position: relative;
@@ -151,10 +156,19 @@ looks acceptable.*/
     #menu > li {
         padding-left: 20px;
     }
+
+    main {
+       margin-top: 130px;
+    }
 }
 
 @media screen and (min-width: 813px) {
     #menu {
         display: flex;
     }
+
+    main {
+        margin-top: 65px;
+     }
+
 }
