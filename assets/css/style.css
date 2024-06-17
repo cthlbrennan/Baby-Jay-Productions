@@ -22,15 +22,28 @@ body {
 header {
     background-color: #F6F188;
     padding: 10px 10px;
-    margin-bottom: 0;
-    border-bottom: 0;
     position: fixed;
     width: 100%;
     z-index: 10;
     box-shadow: 0 2px 4px #000000;
+    
+
+}
+
+header > div {
     display: flex;
     justify-content: space-between;
-    align-items: baseline;
+    align-items:center;
+}
+
+header > div > span {
+    display: inline-block; 
+    align-items: center;
+    justify-content: center;
+}
+
+.float-right {
+    float: right;
 }
 
 h1 {
@@ -90,8 +103,8 @@ nav {
 
 .nav-toggle-label {
     display: flex;
-    flex-direction: column;
-    justify-content: center;
+    flex-direction: row;
+    justify-content: flex-end;
     align-items: center;
     font-size: 300%;
     vertical-align: -100%;
