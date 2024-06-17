@@ -173,7 +173,10 @@ looks acceptable.*/
     /* padding to menu items so there's some room between them */
     #menu > li {
         padding-left: 20px;
+    
     }
+
+    
 
     main {
        margin-top: 130px;
