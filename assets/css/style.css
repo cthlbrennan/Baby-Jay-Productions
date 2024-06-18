@@ -26,18 +26,18 @@ header {
     width: 100%;
     z-index: 10;
     box-shadow: 0 2px 4px #000000;
-    
+
 
 }
 
-header > div {
+header>div {
     display: flex;
     justify-content: space-between;
-    align-items:center;
+    align-items: center;
 }
 
-header > div > span {
-    display: inline-block; 
+header>div>span {
+    display: inline-block;
     align-items: center;
     justify-content: center;
 }
@@ -45,7 +45,7 @@ header > div > span {
 h1 {
     font-family: 'Fira Mono', sans-serif;
     /*font-size: 90%;*/
-    }
+}
 
 header h1 {
     letter-spacing: 2px;
@@ -65,9 +65,9 @@ header h1 {
     line-height: 35px;
 }
 
-#menu > li > a {
+#menu>li>a {
     text-decoration: none;
-    color:#9A0431
+    color: #9A0431
 }
 
 /* active-page class tells user where they are in the website when looking at nav bar */
@@ -84,16 +84,16 @@ nav {
     padding: 0 1rem;
     display: none;
     top: 100%;
-    
+
 }
 
 /* nav toggle */
 #nav-toggle:checked~nav {
-    display:block;
+    display: block;
 }
 
 #nav-toggle {
-    display:none;
+    display: none;
     align-items: center;
 }
 
@@ -104,7 +104,7 @@ nav {
     align-items: center;
     font-size: 300%;
     vertical-align: -100%;
-   
+
 }
 
 /* main element */
@@ -121,12 +121,30 @@ main {
 #hero {
     width: 100%;
     height: 75vh;
-      background: url(../images/IMG-20240615-WA0010.jpg) no-repeat center center/cover;
+    background: url(../images/IMG-20240615-WA0010.jpg) no-repeat center center/cover;
+    position: relative;
+}
+
+#text-on-hero-image > h2 {
+    padding-top: 20px;
+    font-family: 'Cousine', sans-serif;
+    letter-spacing: 2px;
+    color: #FFFFFF;
+}
+
+#text-on-hero-image {
+    background-color: #007360;
+    opacity: 50%;
+    font-size: 140%;
+    position: absolute;
+    bottom: 30px;
+    width: 80%;
+    padding-left: 20px;
 }
 
 /* footer element */
-footer { 
-    background-color:#9A0431;
+footer {
+    background-color: #9A0431;
     color: #F6F188;
 }
 
@@ -136,7 +154,7 @@ footer {
     justify-content: space-evenly;
     text-align: center;
     list-style-type: none;
-    
+
 }
 
 #social-media-links a i {
@@ -156,7 +174,7 @@ element until the screen is 813px in width, at which point display:flex arrangem
 looks acceptable.*/
 
 @media screen and (min-width: 768px) {
-    
+
     /* header element */
 
     header {
@@ -168,7 +186,7 @@ looks acceptable.*/
         position: relative;
         box-shadow: none;
         width: fit-content;
-        
+
     }
 
     /* no need for nav-toggle-label if nav options are visible at this screen width */
@@ -177,15 +195,15 @@ looks acceptable.*/
     }
 
     /* padding to menu items so there's some room between them */
-    #menu > li {
+    #menu>li {
         padding-left: 20px;
-    
+
     }
 
-    
+
 
     main {
-       margin-top: 120px;
+        margin-top: 120px;
     }
 }
 
@@ -196,14 +214,14 @@ looks acceptable.*/
 
     main {
         margin-top: 55px;
-     }
+    }
 
 }
 
 @media screen and (min-width: 992px) {
 
-    /* Code snippet below is based on https://www.w3schools.com/css/css3_buttons.asp */ 
-    #menu > li > a:hover {
+    /* Code snippet below is based on https://www.w3schools.com/css/css3_buttons.asp */
+    #menu>li>a:hover {
         text-decoration: underline solid #9A0431;
         background-color: #007360;
         color: #F6F188;
@@ -211,14 +229,14 @@ looks acceptable.*/
         padding: 5px 5px;
     }
 
-    #social-media-links > li > a > i:hover {
+    #social-media-links>li>a>i:hover {
         color: #9A0431;
         background-color: #F6F188;
         padding: 10px 10px;
         transition-duration: 0.4s;
     }
-    
 
 
-        
+
+
 }
