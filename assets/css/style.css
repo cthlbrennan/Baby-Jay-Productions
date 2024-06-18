@@ -178,8 +178,9 @@ main {
 }
 
 #about-us > div > a {
-    flex: 1 1 auto;
+    flex: 1 0 auto;
     text-align: center;
+    padding: 20px;
     align-self: center;
     text-decoration: none;
     padding: 5px;
