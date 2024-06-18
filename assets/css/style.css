@@ -178,12 +178,15 @@ main {
 }
 
 #about-us > div > a {
+    display: block;
     flex: 1 0 auto;
     text-align: center;
+    padding: 20px;
     align-self: center;
     text-decoration: none;
     padding: 5px;
 }
+
 
 #industry-insight {
     display: flex;
