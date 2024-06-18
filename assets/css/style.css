@@ -180,27 +180,53 @@ main {
 #about-us > div > a {
     flex: 1 0 auto;
     text-align: center;
-    padding: 20px;
     align-self: center;
     text-decoration: none;
     padding: 5px;
 }
 
-    /* Code snippet below is based on https://www.w3schools.com/css/css3_buttons.asp
-    #menu>li>a:hover {
-        text-decoration: underline solid #9A0431;
-        background-color: #007360;
-        color: #F6F188;
-        transition-duration: 0.4s;
-        padding: 5px 5px;
-    }
+#industry-insight {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
 
-    #social-media-links>li>a>i:hover {
-        color: #9A0431;
-        background-color: #F6F188;
-        padding: 10px 10px;
-        transition-duration: 0.4s;
-    } */
+#industry-insight > div > h2 {
+    background-color: #F6F188;
+    color: #9A0431;
+    text-align: center;
+    padding: 10px;
+    margin: 5px;
+    margin-top: 10px;
+    flex: 1 1 auto;
+}
+
+#industry-insight > div > img {
+    max-width: 250px;
+    text-align:center;
+    padding: 5px;
+    margin: 5px;
+    flex: 1 1 auto;
+}
+
+#industry-insight > div > p {
+    flex: 1 1 auto;
+    align-self: center;
+    text-align: center;
+    padding: 5px;
+}
+
+#industry-insight > div > a {
+    flex: 1 0 auto;
+    text-align: center;
+    padding: 20px;
+    align-self: center;
+    text-decoration: none;
+    padding: 5px;
+}
 
 
 /* footer element */
