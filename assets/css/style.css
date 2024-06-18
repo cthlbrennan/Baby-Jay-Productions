@@ -295,6 +295,32 @@ looks acceptable.*/
     main {
         margin-top: 120px;
     }
+
+    /* About us section, index.html */
+    #about-us {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        width: 100%;
+    } 
+
+    #about-us > h2 {
+        justify-content:center;
+        position: top;
+        
+    }
+
+    #about-us > div > img {
+        align-self:flex-start;
+        text-align: start;
+        width: 100%;
+    }
+
+    #about-us > div > p {
+        text-align: start;
+        align-self: flex-start;
+    }
+
 }
 
 @media screen and (min-width: 813px) {
