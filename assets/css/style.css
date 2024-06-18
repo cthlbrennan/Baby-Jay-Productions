@@ -110,12 +110,18 @@ nav {
 /* main element */
 
 main {
-    background-color: white;
     /* flex set to keep footer down at bottom of page */
     flex-grow: 1;
     flex-shrink: 0;
     flex-basis: auto;
-    margin-top: 100px;
+    margin-top: 50px;
+}
+
+/* hero section on index.html */
+#hero {
+    width: 100%;
+    height: 75vh;
+      background: url(../images/IMG-20240615-WA0010.jpg) no-repeat center center/cover;
 }
 
 /* footer element */
@@ -179,7 +185,7 @@ looks acceptable.*/
     
 
     main {
-       margin-top: 130px;
+       margin-top: 120px;
     }
 }
 
@@ -189,7 +195,7 @@ looks acceptable.*/
     }
 
     main {
-        margin-top: 65px;
+        margin-top: 55px;
      }
 
 }
