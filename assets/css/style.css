@@ -42,14 +42,12 @@ header>div>span {
     justify-content: center;
 }
 
-h1 {
+header h1 {
     font-family: 'Fira Mono', sans-serif;
-    /*font-size: 90%;*/
+    max-width: 200px;
 }
 
-header h1 {
-    letter-spacing: 2px;
-}
+
 
 #logo {
     text-decoration: none;
@@ -114,7 +112,7 @@ main {
     flex-grow: 1;
     flex-shrink: 0;
     flex-basis: auto;
-    margin-top: 50px;
+    margin-top: 100px;
 
 }
 
@@ -271,12 +269,20 @@ looks acceptable.*/
     }
 
     nav {
-        display: block;
+        display: flex;
         position: relative;
         box-shadow: none;
         width: fit-content;
-
     }
+
+    #menu {
+        display: flex;
+    }
+
+
+
+
+
 
     /* no need for nav-toggle-label if nav options are visible at this screen width */
     .nav-toggle-label {
@@ -292,7 +298,7 @@ looks acceptable.*/
 
 
     main {
-        margin-top: 120px;
+        margin-top: 70px;
     }
 
     /* About us section, index.html */
@@ -322,16 +328,6 @@ looks acceptable.*/
 
 }
 
-@media screen and (min-width: 813px) {
-    #menu {
-        display: flex;
-    }
-
-    main {
-        margin-top: 55px;
-    }
-
-}
 
 @media screen and (min-width: 992px) {
 
@@ -341,7 +337,7 @@ looks acceptable.*/
         background-color: #007360;
         color: #F6F188;
         transition-duration: 0.4s;
-        padding: 5px 5px;
+        
     }
 
     #social-media-links>li>a>i:hover {
