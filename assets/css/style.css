@@ -404,6 +404,15 @@ looks acceptable.*/
 
 @media screen and (min-width: 992px) {
 
+    /* static nav bar for laptops and desktops*/
+    header {
+        position: static;
+    }
+    /* no need for margin top when nav bar is static, not fixed*/
+    main {
+        margin-top: 0px;
+    }
+
     /* Code snippet below is based on https://www.w3schools.com/css/css3_buttons.asp */
     #menu>li>a:hover {
         text-decoration: underline solid #9A0431;
