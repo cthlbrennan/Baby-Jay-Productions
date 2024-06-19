@@ -26,28 +26,15 @@ header {
     width: 100%;
     z-index: 10;
     box-shadow: 0 2px 4px #000000;
-
-
-}
-
-header>div {
-    display: flex;
     justify-content: space-between;
     align-items: center;
-}
-
-header>div>span {
-    display: inline-block;
-    align-items: center;
-    justify-content: center;
+    display: flex;
 }
 
 header h1 {
     font-family: 'Fira Mono', sans-serif;
     max-width: 200px;
 }
-
-
 
 #logo {
     text-decoration: none;
@@ -346,8 +333,5 @@ looks acceptable.*/
         padding: 10px 10px;
         transition-duration: 0.4s;
     }
-
-
-
 
 }
