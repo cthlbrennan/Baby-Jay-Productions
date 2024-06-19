@@ -315,10 +315,14 @@ footer {
 
 }
 
-#contact-details p {
+#contact-text {
+    text-align: center;
+}
+
+/* #contact-details p {
     max-width: 300px;
     align-self: center;
-}
+} */
 
 #social-media-links {
     padding: 20px 0;
@@ -423,8 +427,7 @@ looks acceptable.*/
         flex-direction: row;
         justify-content:space-between;
         align-items:center;
-    
-    }
+        }
     
     #contact-details h3 {
         font-family: 'Fira Mono', sans-serif;
@@ -433,9 +436,13 @@ looks acceptable.*/
         padding: 10px;
     }
 
-    #contact-details p {
+    #contact-text {
         display: block;
-        margin: auto;
+        flex-direction: column;
+        max-width: 300px;
+        text-align: right;
+        align-items: center;
+        padding: 10px;
     }
 
 }
