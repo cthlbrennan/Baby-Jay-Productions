@@ -109,6 +109,7 @@ main {
     height: 75vh;
     background: url(../images/IMG-20240615-WA0010.jpg) no-repeat center center/cover;
     position: relative;
+    margin-bottom: 2em;
 }
 
 #text-on-hero-image > h2 {
@@ -151,17 +152,17 @@ main {
     padding: 10px;
     margin: 0.5em auto;
     width: fit-content;
-    margin: 0 auto;
+   
 }
 
 #about-us p {
-    margin: 1em auto;
+    margin: 0 auto 1em;
     text-align: center;
 }
 
 #about-us img {
     max-width: 300px;
-    text-align:center;
+    align-self: center;
     padding: 5px;
     margin: 5px;
 }
@@ -170,8 +171,8 @@ main {
     font-size: 140%;
     font-family: 'Cousine';
     text-decoration: none;
-    color: #F6F188;
-    background-color: #007360;
+    background-color: #F6F188;
+    color: #9A0431;
     padding: 5px;
 }
 
@@ -293,35 +294,21 @@ looks acceptable.*/
 
     }
 
-
-
     main {
         margin-top: 70px;
     }
 
     /* About us section, index.html */
-    #about-us {
-        display: flex;
+    #about-content {
         flex-direction: row;
-        flex-wrap: wrap;
-        width: 100%;
-    } 
-
-    #about-us > h2 {
-        justify-content:center;
-        position: top;
-        
     }
 
-    #about-us > div > img {
-        align-self:flex-start;
-        text-align: start;
-        width: 100%;
+    #about-content img {
+        order: 2;
     }
 
-    #about-us > div > p {
-        text-align: start;
-        align-self: flex-start;
+    #about-content #about-text {
+        margin: 2em;
     }
 
 }
@@ -343,6 +330,21 @@ looks acceptable.*/
         background-color: #F6F188;
         padding: 10px 10px;
         transition-duration: 0.4s;
+    }
+
+    #about-text {
+        max-width: 300px;
+    }
+
+    #about-us h2 {
+        margin: 0 auto;
+    }
+
+    #about-us a:hover {
+        color: #F6F188;
+        background-color: #007360;
+        transition-duration: 0.4s;
+        padding: 10px;
     }
 
 }
