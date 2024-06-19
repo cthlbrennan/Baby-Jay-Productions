@@ -349,10 +349,6 @@ looks acceptable.*/
     }
 
 
-
-
-
-
     /* no need for nav-toggle-label if nav options are visible at this screen width */
     .nav-toggle-label {
         display: none;
@@ -393,6 +389,12 @@ looks acceptable.*/
         margin: 2em;
     }
 
+    #testimonials-container {
+        flex-direction: row;
+        justify-content: space-evenly;
+        gap: 10px; 
+    }
+  
 }
 
 
