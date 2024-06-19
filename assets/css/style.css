@@ -112,7 +112,7 @@ main {
     margin-bottom: 2em;
 }
 
-#text-on-hero-image > h2 {
+#text-on-hero-image>h2 {
     padding-top: 20px;
     font-family: 'Cousine', sans-serif;
     letter-spacing: 2px;
@@ -148,7 +148,7 @@ main {
     padding: 10px;
     margin: 0.5em auto;
     width: fit-content;
-   
+
 }
 
 #about-us img {
@@ -157,6 +157,7 @@ main {
     padding: 5px;
     margin: 5px;
 }
+
 #about-us p {
     margin: 0 auto 1em;
     text-align: center;
@@ -185,7 +186,7 @@ main {
     max-width: 80vw;
     margin: 0 auto;
     margin-bottom: 3em;
-    
+
 }
 
 #industry h2 {
@@ -196,6 +197,7 @@ main {
     margin: 0.5em auto;
     width: fit-content;
 }
+
 #industry-content {
     display: flex;
     flex-direction: column;
@@ -221,7 +223,8 @@ main {
     text-decoration: none;
     background-color: #F6F188;
     color: #9A0431;
-    padding: 5px;;
+    padding: 5px;
+    ;
 }
 
 #industry-call-to-action {
@@ -239,7 +242,7 @@ main {
     margin-bottom: 3em;
 }
 
-#testimonials > h2 {
+#testimonials>h2 {
     background-color: #F6F188;
     color: #9A0431;
     text-align: center;
@@ -266,7 +269,7 @@ main {
     align-self: center;
     text-align: center;
     color: #FFFFFF;
-    font-family: "Fira Mono" sans-serif;
+    font-family: "Fira Mono"sans-serif;
     padding: 5px;
 
 }
@@ -290,7 +293,7 @@ main {
 
 }
 
-.testimonial-box p { 
+.testimonial-box p {
     align-self: center;
     font-style: italic;
     color: #FFFFFF;
@@ -309,7 +312,12 @@ footer {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    max-width: 400px;
+
+}
+
+#contact-details p {
+    max-width: 300px;
+    align-self: center;
 }
 
 #social-media-links {
@@ -384,6 +392,7 @@ looks acceptable.*/
     #about-content #about-text {
         margin: 2em;
     }
+
     /* industry section */
     #industry-content {
         flex-direction: row;
@@ -406,9 +415,9 @@ looks acceptable.*/
         justify-content: space-evenly;
         /* use of align-items:stretch declaration based on https://www.freecodecamp.org/news/how-to-center-an-image-in-a-div-css/ */
         align-items: stretch;
-        gap: 10px; 
+        gap: 10px;
     }
-  
+
 }
 
 
@@ -418,6 +427,7 @@ looks acceptable.*/
     header {
         position: static;
     }
+
     /* no need for margin top when nav bar is static, not fixed*/
     main {
         margin-top: 0px;
@@ -429,7 +439,7 @@ looks acceptable.*/
         background-color: #007360;
         color: #F6F188;
         transition-duration: 0.4s;
-        
+
     }
 
     #social-media-links>li>a>i:hover {
