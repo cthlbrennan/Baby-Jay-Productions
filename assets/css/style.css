@@ -418,6 +418,26 @@ looks acceptable.*/
         gap: 10px;
     }
 
+    #contact-details {
+        display: flex;
+        flex-direction: row;
+        justify-content:space-between;
+        align-items:center;
+    
+    }
+    
+    #contact-details h3 {
+        font-family: 'Fira Mono', sans-serif;
+        max-width: 200px;
+        font-size: 200%;
+        padding: 10px;
+    }
+
+    #contact-details p {
+        display: block;
+        margin: auto;
+    }
+
 }
 
 
