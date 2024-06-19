@@ -134,8 +134,7 @@ main {
 }
 
 #text-on-hero-image {
-    background-color: #007360;
-    opacity: 50%;
+    background-color: rgba(0, 115, 96, 0.5);
     font-size: 140%;
     position: absolute;
     bottom: 30px;
