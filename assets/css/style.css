@@ -188,13 +188,6 @@ main {
     
 }
 
-#industry-content {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-}
-
 #industry h2 {
     background-color: #F6F188;
     color: #9A0431;
@@ -202,6 +195,12 @@ main {
     padding: 10px;
     margin: 0.5em auto;
     width: fit-content;
+}
+#industry-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
 #industry img {
@@ -230,6 +229,73 @@ main {
     align-self: center;
     margin: 1em auto;
     max-width: 200px;
+}
+
+/*testimonials section*/
+
+#testimonials {
+    max-width: 80vw;
+    margin: 0 auto;
+    margin-bottom: 3em;
+}
+
+#testimonials > h2 {
+    background-color: #F6F188;
+    color: #9A0431;
+    text-align: center;
+    padding: 10px;
+    margin: 0.5em auto;
+    width: fit-content;
+}
+
+#testimonials-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.testimonial-box {
+    background-color: rgba(0, 115, 96, 0.8);
+    margin: 1em auto;
+    padding: 10px;
+    border-radius: 10%;
+}
+
+.testimonial-box h3 {
+    align-self: center;
+    text-align: center;
+    color: #FFFFFF;
+    font-family: "Fira Mono" sans-serif;
+    padding: 5px;
+
+}
+
+.testimonial-box img {
+    display: block;
+    align-self: center;
+    margin: auto;
+    max-width: 150px;
+    border-radius: 50%;
+    padding: 5px;
+
+}
+
+.testimonial-box h4 {
+    color: #FFFFFF;
+    align-self: center;
+    font-family: "Cousine";
+    text-align: center;
+    padding: 5px;
+
+}
+
+.testimonial-box p { 
+    align-self: center;
+    font-style: italic;
+    color: #FFFFFF;
+    text-align: center;
+    padding: 5px;
 }
 
 /* footer element */
@@ -320,7 +386,7 @@ looks acceptable.*/
     }
 
     #industry-content img {
-        order: 1;
+        order: 0;
     }
 
     #industry-content #industry-text {
