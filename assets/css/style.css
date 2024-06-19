@@ -304,6 +304,14 @@ footer {
     color: #F6F188;
 }
 
+#contact-details {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 400px;
+}
+
 #social-media-links {
     padding: 20px 0;
     display: flex;
@@ -388,6 +396,8 @@ looks acceptable.*/
     #industry-content #industry-text {
         margin: 2em;
     }
+
+
 
     /* testimonials section */
 
