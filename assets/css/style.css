@@ -130,7 +130,7 @@ main {
 #about-us {
     max-width: 80vw;
     margin: 0 auto;
-    margin-bottom: 5em;
+    margin-bottom: 3em;
 }
 
 #about-us h2 {
@@ -150,8 +150,13 @@ main {
     text-align: center;
     padding: 10px;
     margin: 0.5em auto;
-    width: fit-content
-margin 0 auto;
+    width: fit-content;
+    margin: 0 auto;
+}
+
+#about-us p {
+    margin: 1em auto;
+    text-align: center;
 }
 
 #about-us img {
@@ -161,11 +166,20 @@ margin 0 auto;
     margin: 5px;
 }
 
-#about-text a {
-    text-align: center;
+#about-call-to-action a {
+    font-size: 140%;
+    font-family: 'Cousine';
     text-decoration: none;
+    color: #F6F188;
+    background-color: #007360;
     padding: 5px;
+}
+
+#about-call-to-action {
+    text-align: center;
+    align-self: center;
     margin: 1em auto;
+    max-width: 200px;
 }
 
 
