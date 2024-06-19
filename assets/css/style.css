@@ -389,9 +389,13 @@ looks acceptable.*/
         margin: 2em;
     }
 
+    /* testimonials section */
+
     #testimonials-container {
         flex-direction: row;
         justify-content: space-evenly;
+        /* use of align-items:stretch declaration based on https://www.freecodecamp.org/news/how-to-center-an-image-in-a-div-css/ */
+        align-items: stretch;
         gap: 10px; 
     }
   
