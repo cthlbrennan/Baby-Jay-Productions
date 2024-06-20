@@ -18,42 +18,127 @@
 
 <body>
     <header>
-        <div>
-            <!--Adding a logo that provides an internal link to index.html-->
-            <span><a href="index.html" id="logo">
-                    <h1 id="logo">BABY JAY PRODUCTIONS</h1>
-                </a></span>
-            <!--HTML code for nav toggle and dropdown menu based on "Let's get started" videos of Code Institute's Love Running walkthrough project-->
-            <span><input type="checkbox" id="nav-toggle" name="nav-toggle">
-                <label for="nav-toggle" class="nav-toggle-label"><i class="fa-solid fa-bars"></i></label>
 
-                <!--Nav bar that links to other pages-->
-                <nav>
-                    <ul id="menu">
-                        <!--"active page" class underlines whatever page the user is on, helping to orient them within the website
+        <!--Adding a logo that provides an internal link to index.html-->
+        <a href="index.html" id="logo">
+            <h1>BABY JAY PRODUCTIONS</h1>
+        </a>
+        <!--HTML code for nav toggle and dropdown menu based on "Let's get started" videos of Code Institute's Love Running walkthrough project-->
+        <input type="checkbox" id="nav-toggle" name="nav-toggle">
+        <label for="nav-toggle" class="nav-toggle-label"><i class="fa-solid fa-bars"></i></label>
+
+        <!--Nav bar that links to other pages-->
+        <nav>
+            <ul id="menu">
+                <!--"active page" class underlines whatever page the user is on, helping to orient them within the website
                 as per UX best practice-->
-                        <li><a href="index.html">Home</a></li>
-                        <li><a href="services.html" class="active-page">Services</a></li>
-                        <li><a href="contact.html">Contact Us</a></li>
-                    </ul>
-                </nav>
-            </span>
-        </div>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="services.html" class="active-page">Services</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+        </nav>
     </header>
-    <main>Main Content</main>
+    <main>
+        <section id="hero-services">
+            <div id="text-on-hero-services-image">
+                <h2>Audio and Podcasting Services, Boutique and Bespoke</h2>
+            </div>
+        </section>
+        <section id="services-summary">
+            <h3>Whether you are representing your brand, your company or yourself as an independent podcaster, Baby Jay
+                Productions has you covered.</h3>
+            <p>Baby Jay Productions has the technical and creative experience and know-how to
+                ensure that your project is defined, refined, deliverable and effective. By following an
+                effective and meaningful step-by-step process from ideation and marketing to
+                pre-production, production and post-production, our clients benefit from a bespoke
+                partnership that will lead to the realisation of their project.
+
+                Have a look at the services we provide below:</p>
+        </section>
+        <section id="industry">
+            <h2>Make Your Voice Stand Out</h2>
+            <div id="industry-content">
+                <img src="assets/images/pexels-george-milton-6953871.jpg"
+                    alt="Siobhan conducting an interview with a guest in the studio at Radio Kerry">
+                <div id="industry-text">
+                    <p>General comments about the Irish podcast industry, high listenership,
+                        big industry, unparalleled opportunities to reach and develop your
+                        audience, more than ever before. However, many stop before they get started due to varied
+                        stumbling blocks lack of technical expertise, lack of identity, vision, poor planning,
+                        etc. </p>
+                    <p>Baby Jay Productions can connect you with your audience by proving
+                        expert guidance on equipment and recording procedures,
+                        professional audio editing services, branding, deployment on
+                        streaming services and online marketing, ensuring the creation of a a
+                        meticulously polished and fully professional audio experience for the
+                        listener.</p>
+                    <p>Make sure that your stories stand out from the crowd.
+                    </p>
+                    <div id="industry-call-to-action">
+                        <a href="services.html">What we do</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- the code for the testimonials section is loosely based off of
+        https://www.geeksforgeeks.org/html-how-to-add-testimonials/-->
+        <section id="testimonials">
+            <h2>Testimonials</h2>
+            <div id="testimonials-container">
+                <div class="testimonial-box">
+                    <h3>Fiona O'Shea</h3>
+                    <img src="assets/images/Fiona-O_Shea.png" alt="A headshot of Fiona O'Shea">
+                    <h4>Head of News, Radio Kerry</h4>
+                    <p>"Siobhan is a great worker, very smart, etc, etc"</p>
+                </div>
+                <div class="testimonial-box">
+                    <h3>Lou McGill</h3>
+                    <img src="assets/images/Lou-McGill.png" alt="A headshot of Joe Gill">
+                    <h4>Radio Presenter, Radio Kerry</h4>
+                    <p>"Siobhan is a great worker, very smart, etc, etc"</p>
+                </div>
+                <div class="testimonial-box">
+                    <h3>Jane Moloney</h3>
+                    <img src="assets/images/Tony-Moloney.png" alt="A headshot of someone else">
+                    <h4>Somewhere else</h4>
+                    <p>"Siobhan is a great worker, very smart, etc, etc"</p>
+                </div>
+            </div>
+
+        </section>
+    </main>
     <footer>
+        <section id="contact-details">
+            <h3>BABY JAY PRODUCTIONS</h3>
+            <div id="contact-text">
+                <p>Professional Podcasting</p>
+                <p>and Audio Production</p>
+                <p>Phone: 087 XXX XXXX</p>
+                <p>Email: </p>
+                <p>siobhan@babyjayproductions.ie</p>
+            </div>
+        </section>
         <ul id="social-media-links">
             <li><a href="https://www.facebook.com" target="_blank" rel="noopener"
-                    aria-label="Visit our Facebook page (opens in new tab)"><i class="fa-brands fa-facebook-f"></i></a></li>
+                    aria-label="Visit our Facebook page (opens in new tab)"><i class="fa-brands fa-facebook-f"></i></a>
+            </li>
             <li><a href="https://www.twitter.com" target="_blank" rel="noopener"
                     aria-label="Visit our X profile (opens in new tab)"><i class="fa-brands fa-x-twitter"></i></a></li>
             <li><a href="https://www.instagram.com" target="_blank" rel="noopener"
-                    aria-label="Visit our Instagram profile (opens in new tab)"><i class="fa-brands fa-square-instagram"></i></a></li>
+                    aria-label="Visit our Instagram profile (opens in new tab)"><i
+                        class="fa-brands fa-square-instagram"></i></a></li>
             <li><a href="https://www.youtube.com" target="_blank" rel="noopener"
                     aria-label="Visit our Youtube page (opens in new tab)"><i class="fa-brands fa-youtube"></i></a></li>
         </ul>
+        <section id="legal-copyright">
+            <p>Copyright © 2024 Baby Jay Productions All Rights Reserved</p>
+        </section>
+        <section id="baby-jay-easter-egg">
+            <a href="easteregg.html"><img src="assets/favicon/Baby Jay Productions.png"
+                    alt="Baby Jay Productions Logo"></a>
+        </section>
     </footer>
-    <!-- scripting linking to Font Awesome website for icons-->
+    <!--scripting linking to Font Awesome website for icons-->
     <script src="https://kit.fontawesome.com/bdcb7de8b6.js" crossorigin="anonymous"></script>
 </body>
 

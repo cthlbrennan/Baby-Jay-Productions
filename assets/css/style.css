@@ -99,7 +99,7 @@ main {
     flex-grow: 1;
     flex-shrink: 0;
     flex-basis: auto;
-    margin-top: 100px;
+    margin-top: 90px;
 
 }
 
@@ -371,6 +371,55 @@ footer {
 #easter-egg-main p {
     max-width: 300px;
     margin-bottom: 1em;
+}
+
+/* services.html page */
+
+/* hero image on services.html*/
+
+#hero-services {
+    width: 100%;
+    height: 75vh;
+    background: url(../images/IMG-20240615-WA0004.jpg) no-repeat center center/cover;
+    position: relative;
+    margin-bottom: 2em;
+}
+
+#text-on-hero-services-image h2 {
+    padding-top: 20px;
+    font-family: 'Cousine', sans-serif;
+    letter-spacing: 2px;
+    color: #FFFFFF;
+    max-width: 680px;
+}
+
+#text-on-hero-services-image {
+    background-color: rgba(0, 115, 96, 0.5);
+    font-size: 140%;
+    position: absolute;
+    bottom: 30px;
+    width: 80%;
+    padding-left: 20px;
+}
+
+#services-summary {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    max-width: 80vw;
+    margin: 0 auto;
+    margin-bottom: 3em;
+}
+
+#services-summary h3 {
+    color: #9A0431;
+    background-color: #F6F188;
+    margin-bottom: 2em;
+}
+
+#services-summary p {
+    margin-bottom: 2em;
 }
 
 /* The style rules below are relate to screens equal or greater than 768px in width.
