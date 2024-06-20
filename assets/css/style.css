@@ -431,23 +431,31 @@ footer {
 
 #services {
     display: flex;
-    align-items: center;
+    align-items: stretch;
     justify-content: center;
     flex-wrap: wrap;
     max-width: 80vw;
     margin: 0 auto;
-    margin-bottom: 1em;
 }
 
 .services-box {
     flex: 1 0 50%;
     max-width: 300px;
-    padding: 10px;
+    padding: 15px;
     background-color: rgba(0, 115, 96, 0.8);
     color: #FFFFFF; 
     margin: 1em 1em;
-    text-align: center;
-    }
+    text-align: center;    
+    border-radius: 10%;
+}
+
+.services-box h2 {
+    margin-bottom: 1em;
+}
+
+.services-box h4 {
+    margin-bottom: 1em;
+}
 
 #services-conclusion {
     display: flex;
@@ -645,7 +653,7 @@ looks acceptable.*/
     }
 
     #services {
-        flex: 1 0 50%; }
+        max-width: 1100px }
     
 
 }
