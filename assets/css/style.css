@@ -383,6 +383,7 @@ footer {
     height: 75vh;
     background: url(../images/IMG-20240615-WA0004.jpg) no-repeat center center/cover;
     position: relative;
+    margin-bottom: 2em;
   
 }
 
@@ -448,7 +449,19 @@ footer {
     text-align: center;
     }
 
+#services-conclusion {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+}
 
+#services-conclusion p {
+    text-align: center;
+    align-self: center;
+    max-width: 400px;
+}
 
 /* The style rules below are relate to screens equal or greater than 768px in width.
 For smaller tablets (768px to 812px), the navigation bar looks poor with the menu ID given a display:flex declaration, 
@@ -559,6 +572,10 @@ looks acceptable.*/
         padding: 10px 10px 10px 0;
     }
 
+    .services-box {
+        flex: 1 0 33.33%;
+            } 
+
 }
 
 
@@ -599,7 +616,7 @@ looks acceptable.*/
         margin: 0 auto;
     }
 
-    #about-us a:hover {
+    .contact-call-to-action a:hover {
         color: #F6F188;
         background-color: #007360;
         transition-duration: 0.4s;
@@ -628,7 +645,8 @@ looks acceptable.*/
     }
 
     #services {
-        flex: 1 0 33.33%;
-            }
+        flex: 1 0 50%; }
+    
+
 }
 
