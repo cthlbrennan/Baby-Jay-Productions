@@ -474,6 +474,10 @@ footer {
 
 #contact-form {
     margin-top: 160px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 
 }
 
@@ -492,6 +496,44 @@ footer {
     text-align: center;
     width: 80vw;
     margin: 0 auto;
+}
+
+#contact-form-inputs form {
+    display: flex;
+    max-width: 400px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 2em auto;
+    margin-bottom: 2em;
+    font-size: 90%;
+}
+
+#contact-form-inputs input {
+    margin: 1em auto;
+    text-align: center;
+}
+
+#contact-form-inputs textarea {
+    margin: 1em auto 2em auto;
+}
+
+#contact-form-inputs button {
+    text-align: center;
+    font-family: "Roboto Mono", sans-serif;
+    margin: 0 auto;
+    color: #9A0431;
+    background-color: #F6F188;
+    padding: 10px 10px;
+    border: none;
+    font-size: 140%;
+}
+
+#contact-form-inputs button:hover {
+    color: #F6F188;
+    background-color: #007360;
+    transition-duration: 0.4s;
+    padding: 10px;
 }
 
 /* The style rules below are relate to screens equal or greater than 768px in width.
@@ -611,12 +653,24 @@ looks acceptable.*/
         flex: 1 0 33.33%;
     }
 
+    #contact-form {
+        flex-direction: row;
+        align-items: center;
+        margin-right: auto;
+        margin-left: auto;
+    }
+
     #contact-form-welcome {
-        display: flex;
-        flex-direction: column;
+        /* display: flex;
+        flex-direction: column;*/
         justify-content: left;
-        align-items:center;
+        align-items: left;
         margin-left: 1em;
+    }
+
+    #contact-form-welcome h3 {
+        max-width: 400px;
+
     }
 
     #contact-form-welcome h1 {
@@ -629,6 +683,12 @@ looks acceptable.*/
         text-align: left;
         width: 80vw;
         margin: 0 1em;
+    }
+
+    #contact-form-inputs {
+        margin-right: 2em;
+        text-align: center;
+        justify-content: center;
     }
 
 }
@@ -661,6 +721,7 @@ looks acceptable.*/
         padding: 10px 10px;
         transition-duration: 0.4s;
     }
+
 
     /* about us section */
     #about-text {
@@ -703,6 +764,16 @@ looks acceptable.*/
         max-width: 1100px
     }
 
+    #contact-form {
+        margin-top: 63px;
+        margin-bottom: 2em;
+    }
 
+    #contact-form-inputs button:hover {
+        color: #F6F188;
+        background-color: #007360;
+        transition-duration: 0.4s;
+        padding: 10px;
+    }
 
 }
