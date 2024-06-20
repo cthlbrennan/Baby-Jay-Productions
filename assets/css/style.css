@@ -163,7 +163,7 @@ main {
     text-align: center;
 }
 
-#about-call-to-action a {
+.contact-call-to-action a {
     font-size: 140%;
     font-family: 'Cousine';
     text-decoration: none;
@@ -172,7 +172,7 @@ main {
     padding: 5px;
 }
 
-#about-call-to-action {
+.contact-call-to-action {
     text-align: center;
     align-self: center;
     margin: 1em auto;
@@ -312,6 +312,7 @@ footer {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin-top: 1em;
 }
 
 #contact-text {
@@ -382,7 +383,7 @@ footer {
     height: 75vh;
     background: url(../images/IMG-20240615-WA0004.jpg) no-repeat center center/cover;
     position: relative;
-    margin-bottom: 2em;
+  
 }
 
 #text-on-hero-services-image h2 {
@@ -409,18 +410,45 @@ footer {
     flex-direction: column;
     max-width: 80vw;
     margin: 0 auto;
-    margin-bottom: 3em;
+    margin-bottom: 1em;
 }
 
 #services-summary h3 {
     color: #9A0431;
     background-color: #F6F188;
     margin-bottom: 2em;
+    max-width: 650px;
+    text-align: center;
+    padding: 5px;
 }
 
 #services-summary p {
-    margin-bottom: 2em;
+    margin-bottom: 1em;
+    max-width: 650px;
+    text-align: center;
 }
+
+#services {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    max-width: 80vw;
+    margin: 0 auto;
+    margin-bottom: 1em;
+}
+
+.services-box {
+    flex: 1 0 50%;
+    max-width: 300px;
+    padding: 10px;
+    background-color: rgba(0, 115, 96, 0.8);
+    color: #FFFFFF; 
+    margin: 1em 1em;
+    text-align: center;
+    }
+
+
 
 /* The style rules below are relate to screens equal or greater than 768px in width.
 For smaller tablets (768px to 812px), the navigation bar looks poor with the menu ID given a display:flex declaration, 
@@ -598,4 +626,9 @@ looks acceptable.*/
     #easter-egg-main {
         margin-top: 0px;
     }
+
+    #services {
+        flex: 1 0 33.33%;
+            }
 }
+
