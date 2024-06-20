@@ -18,42 +18,61 @@
 
 <body>
     <header>
-        <div>
-            <!--Adding a logo that provides an internal link to index.html-->
-            <span><a href="index.html" id="logo">
-                    <h1 id="logo">BABY JAY PRODUCTIONS</h1>
-                </a></span>
-            <!--HTML code for nav toggle and dropdown menu based on "Let's get started" videos of Code Institute's Love Running walkthrough project-->
-            <span><input type="checkbox" id="nav-toggle" name="nav-toggle">
-                <label for="nav-toggle" class="nav-toggle-label"><i class="fa-solid fa-bars"></i></label>
 
-                <!--Nav bar that links to other pages-->
-                <nav>
-                    <ul id="menu">
-                        <!--"active page" class underlines whatever page the user is on, helping to orient them within the website
+        <!--Adding a logo that provides an internal link to index.html-->
+        <a href="index.html" id="logo">
+            <h1>BABY JAY PRODUCTIONS</h1>
+        </a>
+        <!--HTML code for nav toggle and dropdown menu based on "Let's get started" videos of Code Institute's Love Running walkthrough project-->
+        <input type="checkbox" id="nav-toggle" name="nav-toggle">
+        <label for="nav-toggle" class="nav-toggle-label"><i class="fa-solid fa-bars"></i></label>
+
+        <!--Nav bar that links to other pages-->
+        <nav>
+            <ul id="menu">
+                <!--"active page" class underlines whatever page the user is on, helping to orient them within the website
                 as per UX best practice-->
-                        <li><a href="index.html">Home</a></li>
-                        <li><a href="services.html">Services</a></li>
-                        <li><a href="contact.html" class="active-page">Contact Us</a></li>
-                    </ul>
-                </nav>
-            </span>
-        </div>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="contact.html" class="active-page">Contact Us</a></li>
+            </ul>
+        </nav>
     </header>
-    <main>Main Content</main>
+    <main id="contact-form">
+        <section id="contact-form-welcome">
+            <h1>We'd love to hear from you</h1>
+            <h3>Do you have a project in mind? Don't hesitate to get in touch! Drop us a line and we'll get back to you
+                for a free consultation.</h3>
+        </section>
+    </main>
     <footer>
+        <section id="contact-details">
+            <h3>BABY JAY PRODUCTIONS</h3>
+            <div id="contact-text">
+                <p>Professional Podcasting</p>
+                <p>and Audio Production</p>
+                <p>Phone: 087 XXX XXXX</p>
+                <p>Email: </p>
+                <p>siobhan@babyjayproductions.ie</p>
+            </div>
+        </section>
         <ul id="social-media-links">
             <li><a href="https://www.facebook.com" target="_blank" rel="noopener"
-                    aria-label="Visit our Facebook page (opens in new tab)"><i class="fa-brands fa-facebook-f"></i></a></li>
+                    aria-label="Visit our Facebook page (opens in new tab)"><i class="fa-brands fa-facebook-f"></i></a>
+            </li>
             <li><a href="https://www.twitter.com" target="_blank" rel="noopener"
                     aria-label="Visit our X profile (opens in new tab)"><i class="fa-brands fa-x-twitter"></i></a></li>
             <li><a href="https://www.instagram.com" target="_blank" rel="noopener"
-                    aria-label="Visit our Instagram profile (opens in new tab)"><i class="fa-brands fa-square-instagram"></i></a></li>
+                    aria-label="Visit our Instagram profile (opens in new tab)"><i
+                        class="fa-brands fa-square-instagram"></i></a></li>
             <li><a href="https://www.youtube.com" target="_blank" rel="noopener"
                     aria-label="Visit our Youtube page (opens in new tab)"><i class="fa-brands fa-youtube"></i></a></li>
         </ul>
+        <section id="legal-copyright">
+            <p>Copyright © 2024 Baby Jay Productions All Rights Reserved</p>
+        </section>
     </footer>
-    <!-- scripting linking to Font Awesome website for icons-->
+    <!--scripting linking to Font Awesome website for icons-->
     <script src="https://kit.fontawesome.com/bdcb7de8b6.js" crossorigin="anonymous"></script>
 </body>
 
