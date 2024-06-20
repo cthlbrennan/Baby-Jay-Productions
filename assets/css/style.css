@@ -344,6 +344,35 @@ footer {
     margin-bottom: 2px;
 }
 
+/* main section on Baby Jay Easter Egg page */
+#easter-egg-main {
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+/* h1 text on Baby Jay Easter Egg page */
+#easter-egg-main h1 {
+    color: #9A0431;
+    padding: 10px;
+    font-size: 120%;
+}
+
+#easter-egg-main img {
+    width: 300px;
+    height: 300px;
+    object-fit: contain;
+}
+
+/* paragraph on Baby Jay Easter Egg page */
+#easter-egg-main p {
+    max-width: 300px;
+    margin-bottom: 1em;
+}
+
 /* The style rules below are relate to screens equal or greater than 768px in width.
 For smaller tablets (768px to 812px), the navigation bar looks poor with the menu ID given a display:flex declaration, 
 as per  the Code Institute's Love Running Walkthrough project. With my large, bold logo font, 
@@ -514,5 +543,10 @@ looks acceptable.*/
         background-color: #007360;
         transition-duration: 0.4s;
         padding: 10px;
+    }
+
+    /* main section on Baby Jay Easter Egg page */
+    #easter-egg-main {
+        margin-top: 0px;
     }
 }
