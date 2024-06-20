@@ -312,7 +312,6 @@ footer {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-
 }
 
 #contact-text {
@@ -332,12 +331,17 @@ footer {
     color: #F6F188;
     font-size: 170%;
     padding: 10px 10px;
-
 }
 
 #legal-copyright {
     text-align: center;
     margin-bottom: 1em;
+}
+
+#baby-jay-easter-egg img {
+    max-height: 40px;
+    max-width: 40px;
+    margin-bottom: 2px;
 }
 
 /* The style rules below are relate to screens equal or greater than 768px in width.
@@ -423,11 +427,17 @@ looks acceptable.*/
 
     #contact-details {
         display: flex;
+        width: 100%;
         flex-direction: row;
-        justify-content:space-between;
-        align-items:center;
-        }
-    
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    #contact-details img {
+        display: block;
+        margin: auto;
+    }
+
     #contact-details h3 {
         font-family: 'Fira Mono', sans-serif;
         max-width: 200px;
@@ -437,11 +447,10 @@ looks acceptable.*/
 
     #contact-text {
         display: block;
-        flex-direction: column;
         max-width: 300px;
         text-align: right;
         align-items: center;
-        padding: 10px;
+        padding: 10px 10px 10px 0;
     }
 
 }
