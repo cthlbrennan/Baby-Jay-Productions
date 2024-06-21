@@ -568,7 +568,7 @@ footer {
 
 /* main section on Baby Jay Easter Egg page */
 #error-main {
-    margin-top: 100px;
+    margin-top: 150px;
     display: flex;
     flex-direction: column;
     gap: 10px;
@@ -580,7 +580,7 @@ footer {
 #error-main h2 {
     color: #9A0431;
     padding: 10px;
-    font-size: 120%;
+    font-size: 150%;
 }
 
 #error-main img {
@@ -591,8 +591,7 @@ footer {
 
 /* paragraph on Baby Jay Easter Egg page */
 #error-main p {
-    max-width: 300px;
-    margin-bottom: 1em;
+    margin-bottom: 3em;
 }
 
 /* The style rules below are relate to screens equal or greater than 768px in width.
@@ -752,6 +751,11 @@ looks acceptable.*/
         justify-content: center;
     }
 
+    #error-main {
+        margin-top: 150px;
+
+    }
+
 }
 
 
@@ -835,6 +839,10 @@ looks acceptable.*/
         background-color: #007360;
         transition-duration: 0.4s;
         padding: 10px;
+    }
+
+    #error-main {
+        margin-top: 50px;
     }
 
 }
