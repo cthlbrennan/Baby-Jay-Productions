@@ -16,7 +16,7 @@ body {
     color: black;
     font-family: 'Roboto Mono', sans-serif;
 
-}
+} 
 
 /* header element */
 header {
@@ -456,6 +456,11 @@ footer {
 
 .services-box h4 {
     margin-bottom: 1em;
+}
+
+.services-box audio {
+    max-width: 212px;
+    padding-top: 5px;
 }
 
 #services-conclusion {
