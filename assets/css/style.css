@@ -16,7 +16,7 @@ body {
     color: black;
     font-family: 'Roboto Mono', sans-serif;
 
-} 
+}
 
 /* header element */
 header {
@@ -490,10 +490,9 @@ footer {
     margin-bottom: 2em;
 }
 
-#contact-form-welcome h1 {
+#contact-form-welcome h2 {
     color: #9A0431;
     text-align: center;
-    width: 80vw;
     margin: 0 auto;
 }
 
@@ -662,26 +661,28 @@ looks acceptable.*/
     #contact-form {
         flex-direction: row;
         align-items: center;
+        justify-content: center;
         margin-right: auto;
         margin-left: auto;
+        max-width: 60vw;
     }
 
     #contact-form-welcome {
-        /* display: flex;
-        flex-direction: column;*/
+        display: flex;
+        flex-direction: column;
         justify-content: left;
         align-items: left;
         margin-left: 1em;
+
     }
 
     #contact-form-welcome h3 {
-        max-width: 400px;
-
+        max-width: 550px;
     }
 
-    #contact-form-welcome h1 {
+    #contact-form-welcome h2 {
         text-align: left;
-        width: 80vw;
+
         margin: 0 1em;
     }
 
@@ -692,7 +693,7 @@ looks acceptable.*/
     }
 
     #contact-form-inputs {
-        margin-right: 2em;
+        margin-right: 5rem;
         text-align: center;
         justify-content: center;
     }
