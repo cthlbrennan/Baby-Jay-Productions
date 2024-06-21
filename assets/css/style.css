@@ -107,7 +107,7 @@ main {
 #hero {
     width: 100%;
     height: 75vh;
-    background: url(../images/IMG-20240615-WA0010.jpg) no-repeat center center/cover;
+    background: url(../images/index-hero-image.jpg) no-repeat center center/cover;
     position: relative;
     margin-bottom: 2em;
 }
@@ -382,7 +382,7 @@ footer {
 #hero-services {
     width: 100%;
     height: 75vh;
-    background: url(../images/IMG-20240615-WA0004.jpg) no-repeat center center/cover;
+    background: url(../images/services-hero-image.jpg) no-repeat center center/cover;
     position: relative;
     margin-bottom: 2em;
 
@@ -612,7 +612,8 @@ looks acceptable.*/
     #testimonials-container {
         flex-direction: row;
         justify-content: space-evenly;
-        /* use of align-items:stretch declaration based on https://www.freecodecamp.org/news/how-to-center-an-image-in-a-div-css/ */
+        /* use of align-items:stretch declaration based on 
+        https://www.freecodecamp.org/news/how-to-center-an-image-in-a-div-css/ */
         align-items: stretch;
         gap: 10px;
     }
