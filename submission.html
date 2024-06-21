@@ -9,6 +9,8 @@
         content="Baby Jay Productions. Professional Audio and Podcasting Production Services. Based in Co. Kerry, Ireland.">
     <meta name="keywords"
         content="podcast, podcasts, podcasting, audio, baby jay, siobhan brosnan, production, audio production, podcast production, branding, marketing, streaming, kerry, ireland, munster, radio, spotify">
+    <!--meta tag below automatically sends users to index.html after 5 seconds-->
+    <meta http-equiv="refresh" content="5; url=index.html">
     <title>Home</title>
     <!--placeholder favicon-->
     <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon/baby-jay-productions-favicon.png">
@@ -34,30 +36,16 @@
                 as per UX best practice-->
                 <li><a href="index.html">Home</a></li>
                 <li><a href="services.html">Services</a></li>
-                <li><a href="contact.html" class="active-page">Contact Us</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
             </ul>
         </nav>
     </header>
-    <main id="contact-form">
-        <section id="contact-form-welcome">
-            <h2>We'd love to hear from you</h2>
-            <h3>Do you have a project in mind? Don't hesitate to get in touch! Drop us a line and we'll get back to you
-                for a free consultation.</h3>
+    <main id="submission">
+        <section id="submission-thank-you">
+            <h2>Thanks for your message!</h2>
+            <h4>We'll get back to you shortly.</h4>
         </section>
-        <section id="contact-form-inputs">
-            <form action="submission.html" method="">
-                <label for="name">Name:</label>
-                <input type="text" id="name" required name="name">
-                <label for="email">Email:</label>
-                <input type="email" id="email" required name="email">
-                <label for="message">Please enter your message:</label>
-                <textarea id="message" name="message" required rows="10" cols="20"></textarea>
-                <label for="info">I consent to sharing my information.</label>
-                <input type="checkbox" id="info" required name="agree" value="yes">
-                <br>
-                <button type="submit">Get in touch</button>
-            </form>
-        </section>
+
     </main>
     <footer>
         <section id="contact-details">
