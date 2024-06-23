@@ -540,27 +540,20 @@ footer {
     padding: 10px;
 }
 
-#submission {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-}
-
-
 #submission-thank-you {
+    margin-top: 150px;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
 }
 
-#submission h2 {
+#submission-thank-you h2 {
     color: #9A0431;
     align-self: center;
 }
 
-#submission h4 {
+#submission-thank-you h4 {
     color: #000000;
     align-self: center;
     margin: auto;
