@@ -1,172 +1,51 @@
-# [BABY JAY PRODUCTIONS](https://cthlbrennan.github.io/Baby-Jay-Productions)
+![Logo](documentation/baby-jay-productions-logo.png)
 
 [![GitHub commit activity](https://img.shields.io/github/commit-activity/t/cthlbrennan/Baby-Jay-Productions)](https://github.com/cthlbrennan/Baby-Jay-Productions/commits/main)
 [![GitHub last commit](https://img.shields.io/github/last-commit/cthlbrennan/Baby-Jay-Productions)](https://github.com/cthlbrennan/Baby-Jay-Productions/commits/main)
 [![GitHub repo size](https://img.shields.io/github/repo-size/cthlbrennan/Baby-Jay-Productions)](https://github.com/cthlbrennan/Baby-Jay-Productions)
 
-🛑🛑🛑🛑🛑🛑🛑🛑🛑START OF NOTES (to be deleted)
+## Introduction
 
-!! IMPORTANT !! RE: Table of Contents
+Baby Jay Productions is a website designed to promote the services of a professional audio production company of the same name run by Siobhan Brosnan, a professional in the radio broadcasting and podcasting industry based in Co. Kerry, Ireland. The objective of the website is to clearly communicate the breadth and depth of Siobhan's technical and creative services to brands, companies and individuals looking to set up their own podcasts.  From reading the website, users of the website will understand and appreciate the value that Siobhan could bring to their business or creative venture, thereby providing Siobhan with new clients. The website presents information in a vibrant and professional manner that is reflective of Siobhan's approach to her work. 
 
-DO NOT add a Table of Contents to your README or TESTING!!
-These are outdated since 2021 when GitHub added them built-in to Markdown files automatically.
-
-Assessors see this as bad practice since it's outdated for a few years now,
-as if you've taken it from someone else's project that did the same thing.
-
----
-
-In this section, you will include a few paragraphs providing an overview of your project.
-Essentially, this part is your "sales pitch".
-
-At this stage, you should have a name for your project so use it!
-Don't introduce the project as a "portfolio project" for the diploma.
-
-In this section, describe what the project hopes to accomplish, who it is intended to target, and how it will be useful to the target audience.
-
-Consider adding a mockup image using the "Am I Responsive" website.
-Here's your deployed site as an example:
-https://ui.dev/amiresponsive?url=https://cthlbrennan.github.io/Baby-Jay-Productions
-
-⚠️ NOTE: Issues generating site mockups (Django projects)
-This is likely due to security policies with your deployed site.
-If you open up your dev tools, there may be an error referencing `X-Frame-Options`.
-For Chrome users, head over to http://bit.ly/3iRPn4u and install the extension within your browser.
-Once installed, navigate back to the site above.
-You should find your site rendering in the various devices.
-Alternatively, open your project in Gitpod and run the server.
-Once the site is running, click the `Ports` tab at the bottom of your Gitpod workspace (Ports: 2205, 05432, 8000... ).
-Click the padlock on port `8000`.
-This will make your local page public temporarily.
-Now copy the URL of your live-preview page into the responsive tool above.
-You should find your site rendering in the various devices.
-
-Screenshots for the README and testing should not be inside of `assets/` or `static/` image folders.
-(reminder: `assets/` and `static/` are for files used on the live site, not documentation)
-Consider adding a new folder called `documentation`, and add the amiresponsive screenshot inside of that folder.
-To add the image into your README, use this format:
-(assuming you have a new folder called `documentation` with an image called "mockup.png")
-
-![screenshot](documentation/mockup.png)
-
-Note: Markdown files (.md) should not contain HTML elements like `img`, `br`, `div`, `a`, etc, only Markdown formatting.
-Find out more about using Markdown elements here:
-https://pandao.github.io/editor.md/en.html
-
----
-
-GitHub now supports CALLOUTS in Markdown files.
-There are some callouts already embedded in this application for you.
-However, if you feel that you want to add more, there are certain ones you can use.
-
-NOTE: the preview for callouts isn't yet supported in Gitpod/Codeanywhere/VSCode/etc.
-You'll have to commit/push the changes to GitHub to see it in action.
-
-> [!NOTE]  
-> BLUE: Highlights information that users should take into account, even when skimming.
-
-> [!TIP]  
-> GREEN: Optional information to help a user be more successful.
-
-> [!IMPORTANT]  
-> PURPLE: Crucial information necessary for users to succeed.
-
-> [!WARNING]  
-> YELLOW: Critical content demanding immediate user attention due to potential risks.
-
-> [!CAUTION]  
-> RED: Negative potential consequences of an action.
-
-Source: https://github.com/orgs/community/discussions/16925
-
-🛑🛑🛑🛑🛑🛑🛑🛑🛑🛑-END OF NOTES (to be deleted)
-
-![screenshot](documentation/mockup.png)
-
-source: [amiresponsive](https://ui.dev/amiresponsive?url=https://cthlbrennan.github.io/Baby-Jay-Productions)
+![Responsive designs](documentation/am-i-responsive-screenshot.png)
 
 ## UX
 
-🛑🛑🛑🛑🛑🛑🛑🛑🛑START OF NOTES (to be deleted)
-
-In this section, you will briefly explain your design processes.
-
-🛑🛑🛑🛑🛑🛑🛑🛑🛑🛑-END OF NOTES (to be deleted)
+The primary goal was to create a vibrant, professional website that would provide prospective clients with a thorough and concise of Siobhan's skills as a technical and creative consultant in the audio and podcasting industry.
 
 ### Colour Scheme
 
-🛑🛑🛑🛑🛑🛑🛑🛑🛑START OF NOTES (to be deleted)
+From the outset, I understood that I wanted some bright colours to reflect Siobhan's creativity - however, it was important that the colours would appear suitably muted so as to simultaneously get her professional across to the site user, who would be likely to be a prospective client. As such, using the coolors.co website, I initially selected a palette of five colours to be used alongside black (#000000) and white (#FFFFFF).
 
-Explain your colours and the colour scheme.
+![Initial colour palette](documentation/initial-colour-palette.png)
 
-🛑🛑🛑🛑🛑🛑🛑🛑🛑🛑-END OF NOTES (to be deleted)
+However, after using the Colour Contrast Checker tool on audioeye.com, it was clear to me that the use of lilac (#B594B6) and thistle (#C8B8DB) would be unsuitable, as white (#FFFFFF) text upon these background colours would as background colours as white font would not meet the minimum score of 4.5 as per the Web Content Accessibility Guidelines (WCAG) 2.1.
 
-- `#000000` used for primary text.
-- `#E84610` used for primary highlights.
-- `#4A4A4F` used for secondary text.
-- `#009FE3` used for secondary highlights.
+![#B594B6 Accessibility Score](documentation/audioeye-1.png)
 
-🛑🛑🛑🛑🛑🛑🛑🛑🛑START OF NOTES (to be deleted)
+![#C8B8DB Accessibility Score](documentation/audioeye-2.png)
 
-Consider adding a link and screenshot for your colour scheme using "coolors".
-https://coolors.co/generate
+As such, I removed these two colours from my palette and added a dark pine green that would contrast positively with the rest of the palette. This was confirmed to be acceptable in terms of the WCAG 2.1 as shown below:
 
-When you add a colour to the palette, the URL is dynamically updated, making it easier for you to return back to your colour palette later if needed.
+![#007360 Accessibility Score](documentation/audioeye-3.png)
 
-Example:
+With this change, my colour palette was finalised.  
 
-🛑🛑🛑🛑🛑🛑🛑🛑🛑🛑-END OF NOTES (to be deleted)
-
-I used [coolors.co](https://coolors.co/e84610-009fe3-4a4a4f-445261-d63649-e6ecf0-000000) to generate my colour palette.
-
-![screenshot](documentation/coolors.png)
-
-🛑🛑🛑🛑🛑🛑🛑🛑🛑START OF NOTES (to be deleted)
-
-⚠️ ONLY IF YOU ACTUALLY ADDED `:root` variables in CSS! ⚠️
-If you've used CSS `:root` variables, consider also including a code snippet here!
-
-🛑🛑🛑🛑🛑🛑🛑🛑🛑🛑-END OF NOTES (to be deleted)
-
-I've used CSS `:root` variables to easily update the global colour scheme by changing only one value, instead of everywhere in the CSS file.
-
-```css
-:root {
-    /* P = Primary | S = Secondary */
-    --p-text: #000000;
-    --p-highlight: #E84610;
-    --s-text: #4A4A4F;
-    --s-highlight: #009FE3;
-    --white: #FFFFFF;
-    --black: #000000;
-}
-```
+![Finalised colour palette](documentation/finalised-colour-palette.png)
 
 ### Typography
 
-🛑🛑🛑🛑🛑🛑🛑🛑🛑START OF NOTES (to be deleted)
+I used the fontjoy.com website to find three free Google Fonts that I found to be complementary. 
 
-Explain any fonts and icon libraries used, like Google Fonts and/or Font Awesome.
+![Selected fonts](documentation/fontjoy.png)
 
-Consider adding a link to each font used, and the Font Awesome site if used (or similar icon library).
+The three fonts selected - Fira Mono, Cousine, and Roboto Mono - are all sans-serif and so are well-suited in terms of their accessibility for screen reading. [Fira Mono](https://fonts.google.com/specimen/Fira+Mono) was used for the logo font; [Cousine](https://fonts.google.com/specimen/Cousine) was used for all sub-headings, while [Roboto Mono](https://fonts.google.com/specimen/Roboto+Mono) was used for paragraphs. Both Cousine and Roboto Mono share a similar, typewriter-style aesthetic that contrasts positively with the thick bold lines of Fira Mono.  
 
-Example:
+[Font Awesome](https://fontawesome.com) icons were also used throughout the site, such as the social media icons in the footer and above the sub-headings on the Services page.
 
-🛑🛑🛑🛑🛑🛑🛑🛑🛑🛑-END OF NOTES (to be deleted)
-
-- [Montserrat](https://fonts.google.com/specimen/Montserrat) was used for the primary headers and titles.
-
-- [Lato](https://fonts.google.com/specimen/Lato) was used for all other secondary text.
-
-- [Font Awesome](https://fontawesome.com) icons were used throughout the site, such as the social media icons in the footer.
 
 ## User Stories
-
-🛑🛑🛑🛑🛑🛑🛑🛑🛑🛑 START OF NOTES (to be deleted)
-
-In this section, list all of your user stories for the project.
-
-🛑🛑🛑🛑🛑🛑🛑🛑🛑🛑-END OF NOTES (to be deleted)
 
 ### New Site Users
 
