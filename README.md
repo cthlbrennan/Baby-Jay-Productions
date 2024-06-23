@@ -6,21 +6,21 @@
 
 ## Introduction
 
-Baby Jay Productions is a website designed to promote the services of a professional audio production company of the same name run by Siobhan Brosnan, a professional in the radio broadcasting and podcasting industry based in Co. Kerry, Ireland. The objective of the website is to clearly communicate the breadth and depth of Siobhan's technical and creative services to brands, companies and individuals looking to set up their own podcasts.  From reading the website, users of the website will understand and appreciate the value that Siobhan could bring to their business or creative venture, thereby providing Siobhan with new clients. The website presents information in a vibrant and professional manner that is reflective of Siobhan's approach to her work. 
+Baby Jay Productions is a website designed to promote the services of a professional audio production company of the same name run by Siobhan Brosnan, a professional in the radio broadcasting and podcasting industry based in Co. Kerry, Ireland. The objective of the website is to clearly communicate the breadth and depth of Siobhan's technical and creative services to brands, companies and individuals looking to set up their own podcasts.  From reading the website, users will understand and appreciate the value that Siobhan could bring to their business or creative venture, thereby providing Siobhan with new clients. The website presents information in a vibrant and professional manner that is reflective of Siobhan's approach to her work. 
 
 ![Responsive designs](documentation/introduction/am-i-responsive-screenshot.png)
 
 ## UX
 
-The primary goal was to create a vibrant, professional website that would provide prospective clients with a thorough and concise of Siobhan's skills as a technical and creative consultant in the audio and podcasting industry.
+The primary goal was to create a vibrant, professional website that would provide prospective clients with a thorough and concise overview of Siobhan's skills as a technical and creative consultant in the audio and podcasting industry.
 
 ### Colour Scheme
 
-From the outset, I understood that I wanted some bright colours to reflect Siobhan's creativity - however, it was important that the colours would appear suitably muted so as to simultaneously get her professional across to the site user, who would be likely to be a prospective client. As such, using the coolors.co website, I initially selected a palette of five colours to be used alongside black (#000000) and white (#FFFFFF).
+From the outset, I understood that I wanted some bright colours to reflect Siobhan's creativity. However, it was important that the colours would appear suitably muted so as to simultaneously get her professionalism across to the site user, who would be likely to be a prospective client. As such, using the coolors.co website, I initially selected a palette of five colours to be used alongside black (#000000) and white (#FFFFFF).
 
 ![Initial colour palette](documentation/ux/initial-colour-palette.png)
 
-However, after using the Colour Contrast Checker tool on audioeye.com, it was clear to me that the use of lilac (#B594B6) and thistle (#C8B8DB) would be unsuitable, as white (#FFFFFF) text upon these background colours would as background colours as white font would not meet the minimum score of 4.5 as per the Web Content Accessibility Guidelines (WCAG) 2.1.
+However, after using the Colour Contrast Checker tool on audioeye.com, it was clear to me that the use of lilac (#B594B6) and thistle (#C8B8DB) would be unsuitable, as white (#FFFFFF) text upon these background colours would not meet the minimum score of 4.5 as per the Web Content Accessibility Guidelines (WCAG) 2.1.
 
 ![#B594B6 Accessibility Score](documentation/ux/audioeye-1.png)
 
@@ -50,10 +50,10 @@ The three fonts selected - Fira Mono, Cousine, and Roboto Mono - are all sans-se
 ### New Site Users
 
 - As a new site user, I would like to know the purpose of the website, so that I can discern whether or not it is relevant to me.
-- As a new site user, I would like to the website to be easily navigable, so that I can easily find the information that I may need.
+- As a new site user, I would like the website to be easily navigable, so that I can easily find the information that I may need.
 - As a new site user, I would like to easily return to the home page by clicking the logo in the header, so that I can easily orient myself within the website. 
 - As a new site user, I would like the website to have good SEO scores and semantic elements so that I can easily find it through a search engine.
-- As a new site user, I would like to be assured that the interactive elements of the website work, so that I can have a positive experience that wouldn't result in frustration. 
+- As a new site user, I would like to be assured that the interactive elements of the website work, so that I may have a positive experience that wouldn't result in frustration. 
 
 
 ### Returning Site Users
@@ -100,21 +100,6 @@ I've used [Balsamiq](https://balsamiq.com/wireframes) to design my site wirefram
 
 ## Features
 
-🛑🛑🛑🛑🛑🛑🛑🛑🛑🛑 START OF NOTES (to be deleted)
-
-In this section, you should go over the different parts of your project,
-and describe each in a sentence or so.
-
-You will need to explain what value each of the features provides for the user,
-focusing on who this website is for, what it is that they want to achieve,
-and how your project is the best way to help them achieve these things.
-
-For some/all of your features, you may choose to reference the specific project files that implement them.
-
-IMPORTANT: Remember to always include a screenshot of each individual feature!
-
-🛑🛑🛑🛑🛑🛑🛑🛑🛑🛑-END OF NOTES (to be deleted)
-
 ### Existing Features
 
 
@@ -134,7 +119,7 @@ Upon entering the page, it is immediately apparent to the user that there is a m
 
 ![Feature](documentation/features/menu-options-hover.png)
 
-For desktop computers, if the cursor of the mouse is hovered on the menu options, they will respond by changing colour over 0.4 seconds. This level of interactivity lends an air of professionalism to the business, and provides visual engagement to the user, enticing them to explore more of the website and in so doing discover more about the business. 
+For desktop computers, if the cursor of the mouse is hovered on the menu options, they will respond by changing colour over 0.4 seconds. This level of interactivity lends an air of professionalism to the business, and provides visual engagement to the user, enticing them to explore more of the website and discover more about the business. 
 
 #### Hero Image on Index Page
 
@@ -154,17 +139,17 @@ Upon entering the page, it is immediately apparent to the user that there is a m
 
 This section provides a concise summary of Siobhan's expertise and experience. The website respects the user's time by cutting right to the core of the business. 
 
-#### Call to Action Buttons
+#### Call-to-Action Buttons
 
 ![Feature](documentation/features/call-to-action-hover.png)
 
-Below the About Section, there is a large button which invites the user to click it. This brings the user directly to the Contact Us page. This call to action button is a great feature which encourages interaction from the user. It also helps the business, as it encourages potential clients to reach out for a consultation. These are also included underneath the Industry section discussed below, as well as the bottom of the Services page.
+Below the About section, there is a large button which invites the user to click it. This brings the user directly to the Contact Us page. This call-to-action button is a great feature which encourages interaction from the user. It also helps the business, as it encourages potential clients to reach out for a consultation. These are also included underneath the Industry section discussed below, as well as the bottom of the Services page.
 
 #### Industry Section
 
 ![Feature](documentation/features/industry-section.png)
 
-This section gives a synopsis of the podcasting industry in Ireland, while highlighting the need for a professional product that can get ahead of the crowd. Once again, a call to action button is included underneath this section, this time leading to the Services page.
+This section gives a synopsis of the podcasting industry in Ireland, while highlighting the need for a professional product that can get ahead of the crowd. Once again, a call-to-action button is included underneath this section, this time leading to the Services page.
 
 #### Testimonials
 
@@ -206,13 +191,13 @@ In the bottom left corner of the home page, there is an icon which is the same a
 
 ![Feature](documentation/features/easter-egg-page.png)
 
-Upon clicking the easter egg icon as discussed above, users are led to this page which gives context for the name of the business. The use of an oblique easter egg like this gives the website and business an air of creativity and playfulness, while also encouraging users to look thoroughly through the site for any other quirks. 
+Upon clicking the "easter egg" icon as discussed above, users are led to this page which gives context for the name of the business. The use of an oblique "easter egg" like this gives the website and business an air of creativity and playfulness, while also encouraging users to look thoroughly through the site for any other quirks. 
 
 #### Hero Image on Services Page
 
 ![Feature](documentation/features/hero-image-services.png)
 
-This large image greets the user on the Services page. The image and the accompanying text overlay provides further context on the nature of the business - it is a boutique business that provides custom solutions for the client. Like all other elements in the website, it has been designed to be responsive to different devices. 
+This large image greets the user on the Services page. The image and the accompanying text overlay provides further context on the nature of the business - it is a boutique business that provides custom solutions for the client. Like all other elements of the website, it has been designed to be responsive to different devices. 
 
 #### Services Section
 
@@ -224,7 +209,7 @@ The services page contains a section comprising six boxes, each with an icon fro
 
 ![Feature](documentation/features/interactive-audio.png)
 
-The Audio Editing box of the services section contains two audio clips. These are not autoplaying upon the opening of the page, as per best UX practice. The user can use the controls to hear the recordings. The first plays a poor quality piece of audio, the second plays the same audio bu restored, thereby showing Siobhan's skill at audio repair to the user. 
+The Audio Editing box of the services section contains two audio clips. These are not autoplaying upon the opening of the page, as per best UX practice. The user can use the controls to hear the recordings. The first plays a poor quality piece of audio, the second plays the same audio but restored, thereby showing Siobhan's skill at audio repair to the user. 
 
 #### Contact Form
 
@@ -254,7 +239,7 @@ The page appears upon submission of the form. It appears for five seconds, befor
 
 ![Feature](documentation/features/error-page.png)
 
-If there is a 404 error, the user will get sent to the 404 page. This page features a variation of the illustration, with Baby Jay having an angry expression. 
+If there is a 404 error, the user will be sent to the 404 page. This page features a variation of the illustration, with Baby Jay having an angry expression. 
 
 ### Future Features
 
@@ -265,7 +250,7 @@ If there is a 404 error, the user will get sent to the 404 page. This page featu
 - Social Media Links
     - The links will lead to Siobhan's relevant socials, not placeholders. 
 - Photos
-    - Higher quality resolution photographs would be needed in the future, especially for the hero images.
+    - Higher-quality resolution photographs would be needed in the future, especially for the hero images.
 
 ## Tools & Technologies Used
 
@@ -345,7 +330,11 @@ To my knowledge, there is no difference between the local version on Gitpod and 
 | [Geeks for Geeks](https://www.geeksforgeeks.org/html-how-to-add-testimonials) | Index.html | Code formed basis for testimonial section |
 | [Flexbox Froggy](https://flexboxfroggy.com/) | entire site | modern responsive layouts |
 | [Free Code Camp](https://www.freecodecamp.org/news/how-to-center-an-image-in-a-div-css/) | index.html | use of align-items:stretch declaration based on the article, 'CSS Image Centering – How to Center an Image in a Div'
- |
+|[Audioeye](https://audioeye.com) | entire site | colour contrast tool 
+|[UI.dev](https://ui.dev/amiresponsive) | entire site | Am I Responsive tool
+|[Coolors](https://coolors.co) | entire site | Palette Generator Tool
+|[Fontjoy](https://fontjoy.com) | entire site | Font Pairing Tool
+
 
 ### Media
 
@@ -356,14 +345,15 @@ To my knowledge, there is no difference between the local version on Gitpod and 
 | Siobhan Brosnan |Index.html and services.html | image | hero images and about section image|
 | Siobhan Brosnan |services.html | audio | audio repair clips
 | Siobhan Brosnan |easteregg.html | image | image of Baby Jay |
-| Google Fonts | product page | fonts | further information and links to fonts provided above in Typography section|
+| [Google Fonts](https://fonts.google.com/) | product page | fonts | further information and links to fonts provided above in Typography section|
 | [Pexels](https://www.pexels.com/photo/microphone-on-tripod-attached-to-laptop-in-studio-6953871/) | index.html | image | image of microphone and laptop in industry section |
 | [This Person Does Not Exist](https://thispersondoesnotexist.com/) | index.html | image | AI-generated images for testimonials section |
 | [Font Awesome](https://fontawesome.com) | index.html and services.html | image | icons used in social media links and services section |
 | [TinyPNG](https://tinypng.com) | entire site | image | tool for image compression |
+|
 
 ### Acknowledgements
 
 Thanks to Tim Nelson for his help and guidance. 
 Thanks to Marko Tot for same. 
-Thanks to Siobhan for helping me make her website for free. 
+Thanks to Siobhan for allowing me to make her a website for free. 
