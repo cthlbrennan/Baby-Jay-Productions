@@ -49,19 +49,22 @@ The three fonts selected - Fira Mono, Cousine, and Roboto Mono - are all sans-se
 
 ### New Site Users
 
-- As a new site user, I would like to ____________, so that I can ____________.
-- As a new site user, I would like to ____________, so that I can ____________.
-- As a new site user, I would like to ____________, so that I can ____________.
-- As a new site user, I would like to ____________, so that I can ____________.
-- As a new site user, I would like to ____________, so that I can ____________.
+- As a new site user, I would like to know the purpose of the website, so that I can discern whether or not it is relevant to me.
+- As a new site user, I would like to the website to be easily navigable, so that I can easily find the information that I may need.
+- As a new site user, I would like to easily return to the home page by clicking the logo in the header, so that I can easily orient myself within the website. 
+- As a new site user, I would like the website to have good SEO scores and semantic elements so that I can easily find it through a search engine.
+- As a new site user, I would like to be assured that the interactive elements of the website work, so that I can have a positive experience that wouldn't result in frustration. 
+
 
 ### Returning Site Users
 
-- As a returning site user, I would like to ____________, so that I can ____________.
-- As a returning site user, I would like to ____________, so that I can ____________.
-- As a returning site user, I would like to ____________, so that I can ____________.
-- As a returning site user, I would like to ____________, so that I can ____________.
-- As a returning site user, I would like to ____________, so that I can ____________.
+- As a returning site user, I would like to know where I can find further information on the business, such as their social media presence. 
+- As a returning site user, I would like to know how to contact the business directly for commercial queries.
+
+### Frequent Site Users
+
+- As a new site user, I would like the website to be responsive to different screen widths, so that I can easily view it on a variety of devices.
+
 
 ## Wireframes
 
@@ -88,47 +91,21 @@ I've used [Balsamiq](https://balsamiq.com/wireframes) to design my site wirefram
 
 ### Mobile Wireframes
 
-< details >
-< summary > Click here to see the Mobile Wireframes < / summary >
+<details>
+<summary> Click here to see the Mobile Wireframes</summary>
 
-Home
-  - ![screenshot](documentation/wireframes/mobile-home.png)
+![Mobile Wireframes](documentation/wireframes-mobile.png)
 
-About
-  - ![screenshot](documentation/wireframes/mobile-about.png)
-
-Contact
-  - ![screenshot](documentation/wireframes/mobile-contact.png)
-
-Gallery
-  - ![screenshot](documentation/wireframes/mobile-gallery.png)
-
-etc.
-  - repeat for any remaining mobile wireframes
-
-< / details >
+</details>
 
 ### Tablet Wireframes
 
-< details >
-< summary > Click here to see the Tablet Wireframes < / summary >
+<details>
+<summary> Click here to see the Tablet Wireframes</summary>
 
-Home
-  - ![screenshot](documentation/wireframes/tablet-home.png)
+![Tablet Wireframes](documentation/wireframes-tablet.png)
 
-About
-  - ![screenshot](documentation/wireframes/tablet-about.png)
-
-Contact
-  - ![screenshot](documentation/wireframes/tablet-contact.png)
-
-Gallery
-  - ![screenshot](documentation/wireframes/tablet-gallery.png)
-
-etc.
-  - repeat for any remaining tablet wireframes
-
-< / details >
+</details>
 
 ### Desktop Wireframes
 
