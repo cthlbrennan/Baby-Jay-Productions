@@ -16,7 +16,7 @@ The primary goal was to create a vibrant, professional website that would provid
 
 ### Colour Scheme
 
-From the outset, I understood that I wanted some bright colours to reflect Siobhan's creativity. However, it was important that the colours would appear suitably muted so as to simultaneously get her professionalism across to the site user, who would be likely to be a prospective client. As such, using the coolors.co website, I initially selected a palette of five colours to be used alongside black (#000000) and white (#FFFFFF).
+From the outset, I understood that I wanted some bright colours to reflect Siobhan's creativity. However, it was important that the colours would appear suitably muted so as to simultaneously get her professionalism across to the site user, who would be likely to be a prospective client. As such, using the coolors.co website, I initially selected a palette of five bright pastel colours to be used alongside black (#000000) and white (#FFFFFF).
 
 ![Initial colour palette](documentation/ux/initial-colour-palette.png)
 

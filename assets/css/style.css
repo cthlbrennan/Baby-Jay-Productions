@@ -15,7 +15,6 @@ body {
     flex-direction: column;
     color: black;
     font-family: 'Roboto Mono', sans-serif;
-
 }
 
 /* header element */
@@ -69,7 +68,6 @@ nav {
     padding: 0 1rem;
     display: none;
     top: 100%;
-
 }
 
 /* nav toggle */
@@ -89,7 +87,6 @@ nav {
     align-items: center;
     font-size: 300%;
     vertical-align: -100%;
-
 }
 
 /* main element */
@@ -100,7 +97,6 @@ main {
     flex-shrink: 0;
     flex-basis: auto;
     margin-top: 90px;
-
 }
 
 /* hero section on index.html */
@@ -148,7 +144,6 @@ main {
     padding: 10px;
     margin: 0.5em auto;
     width: fit-content;
-
 }
 
 #about-us img {
@@ -179,14 +174,11 @@ main {
     max-width: 200px;
 }
 
-
-
 /* industry insight section */
 #industry {
     max-width: 80vw;
     margin: 0 auto;
     margin-bottom: 3em;
-
 }
 
 #industry h2 {
@@ -224,7 +216,6 @@ main {
     background-color: #F6F188;
     color: #9A0431;
     padding: 5px;
-    ;
 }
 
 #industry-call-to-action {
@@ -272,7 +263,6 @@ main {
     color: #FFFFFF;
     font-family: "Fira Mono", sans-serif;
     padding: 5px;
-
 }
 
 .testimonial-box img {
@@ -282,7 +272,6 @@ main {
     max-width: 150px;
     border-radius: 50%;
     padding: 5px;
-
 }
 
 .testimonial-box h4 {
@@ -291,7 +280,6 @@ main {
     font-family: "Cousine";
     text-align: center;
     padding: 5px;
-
 }
 
 .testimonial-box p {
@@ -326,7 +314,6 @@ footer {
     justify-content: space-evenly;
     text-align: center;
     list-style-type: none;
-
 }
 
 #social-media-links a i {
@@ -385,7 +372,6 @@ footer {
     background: url(../images/services-hero-image.jpg) no-repeat center center/cover;
     position: relative;
     margin-bottom: 2em;
-
 }
 
 #text-on-hero-services-image h2 {
@@ -429,6 +415,8 @@ footer {
     max-width: 650px;
     text-align: center;
 }
+
+/* services section*/
 
 #services {
     display: flex;
@@ -477,13 +465,13 @@ footer {
     max-width: 400px;
 }
 
+/* contact form */
 #contact-form {
     margin-top: 160px;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-
 }
 
 #contact-form-welcome {
@@ -544,6 +532,8 @@ footer {
     padding: 10px;
 }
 
+/* submission confirmation page */
+
 #submission-thank-you {
     margin-top: 150px;
     display: flex;
@@ -594,14 +584,6 @@ footer {
     text-align: center;
 }
 
-/* The style rules below are relate to screens equal or greater than 768px in width.
-For smaller tablets (768px to 812px), the navigation bar looks poor with the menu ID given a display:flex declaration, 
-as per  the Code Institute's Love Running Walkthrough project. With my large, bold logo font, 
-and the font and letter-spacing of the menu items, the resultant view is poor and jumbled (see bug fix 3 in the README.md
-for more information on this). As such, I have written the CSS rules below so that display:flex is not applied to the menu ID 
-element until the screen is 813px in width, at which point display:flex arrangement of the nav bar menu items 
-looks acceptable.*/
-
 @media screen and (min-width: 768px) {
 
     /* header element */
@@ -620,7 +602,6 @@ looks acceptable.*/
     #menu {
         display: flex;
     }
-
 
     /* no need for nav-toggle-label if nav options are visible at this screen width */
     .nav-toggle-label {
@@ -662,8 +643,6 @@ looks acceptable.*/
     #industry-content #industry-text {
         margin: 2em;
     }
-
-
 
     /* testimonials section */
 
@@ -734,7 +713,6 @@ looks acceptable.*/
 
     #contact-form-welcome h2 {
         text-align: left;
-
         margin: 0 1em;
     }
 
@@ -751,7 +729,6 @@ looks acceptable.*/
 
     #error-main {
         margin-top: 150px;
-
     }
 
 }
@@ -775,7 +752,6 @@ looks acceptable.*/
         background-color: #007360;
         color: #F6F188;
         transition-duration: 0.4s;
-
     }
 
     #social-media-links>li>a>i:hover {
@@ -784,7 +760,6 @@ looks acceptable.*/
         padding: 10px 10px;
         transition-duration: 0.4s;
     }
-
 
     /* about us section */
     #about-text {
