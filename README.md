@@ -350,7 +350,7 @@ To my knowledge, there is no difference between the local version on Gitpod and 
 | [This Person Does Not Exist](https://thispersondoesnotexist.com/) | index.html | image | AI-generated images for testimonials section |
 | [Font Awesome](https://fontawesome.com) | index.html and services.html | image | icons used in social media links and services section |
 | [TinyPNG](https://tinypng.com) | entire site | image | tool for image compression |
-|
+
 
 ### Acknowledgements
 
