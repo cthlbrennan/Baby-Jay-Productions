@@ -63,7 +63,7 @@ The three fonts selected - Fira Mono, Cousine, and Roboto Mono - are all sans-se
 
 ### Frequent Site Users
 
-- As a new site user, I would like the website to be responsive to different screen widths, so that I can easily view it on a variety of devices.
+- As a frequent site user, I would like the website to be responsive to different screen widths, so that I can easily view it on a variety of devices.
 
 
 ## Wireframes

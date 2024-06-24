@@ -168,101 +168,130 @@ I've tested my deployed project using the Lighthouse Audit tool to check for any
 
 | User Story | Screenshot |
 | --- | --- |
-| As a new site user, I would like to ____________, so that I can ____________. | ![screenshot](documentation/features/feature01.png) |
-| As a new site user, I would like to ____________, so that I can ____________. | ![screenshot](documentation/features/feature02.png) |
-| As a new site user, I would like to ____________, so that I can ____________. | ![screenshot](documentation/features/feature03.png) |
-| As a returning site user, I would like to ____________, so that I can ____________. | ![screenshot](documentation/features/feature04.png) |
-| As a returning site user, I would like to ____________, so that I can ____________. | ![screenshot](documentation/features/feature05.png) |
-| As a returning site user, I would like to ____________, so that I can ____________. | ![screenshot](documentation/features/feature06.png) |
-| As a site administrator, I should be able to ____________, so that I can ____________. | ![screenshot](documentation/features/feature07.png) |
-| As a site administrator, I should be able to ____________, so that I can ____________. | ![screenshot](documentation/features/feature08.png) |
-| As a site administrator, I should be able to ____________, so that I can ____________. | ![screenshot](documentation/features/feature09.png) |
-| repeat for all remaining user stories | x |
+| As a new site user, I would like to know the purpose of the website, so that I can discern whether or not it is relevant to me. | ![screenshot](documentation/features/hero-image-index.png) |
+| As a new site user, I would like the website to be easily navigible, so that I can easily find the information that I may need. | ![screenshot](documentation/features/navbar.png) |
+| As a new site user, I would like to easily return to the home page by clicking the logo in the header, so that I can easily orient myself within the website. | ![screenshot](documentation/features/baby-jay-productions-logo.png) |
+| As a new site user, I would like the website to have good SEO scores and semantic elements so that I can easily find it through a search engine.| ![screenshot](documentation/lighthouse/desktop/index-lighthouse-desktop.png) |
+| As a new site user, I would like to be assured that the interactive elements of the website work, so that I may have a positive experience that wouldn't result in frustration. | ![screenshot](documentation/validation/html-validation/index-validation.png) ![screenshot](documentation/validation/css-validation/css-validation.png)|
+| As a returning site user, I would like to know where I can find further information on the business, such as their social media presence. | ![screenshot](documentation/features/social-media-links.png) |
+| As a returning site user, I would like to know how to contact the business directly for commercial queries. | ![screenshot](documentation/features/contact-form.png) |
+| As a frequent site user, I would like the website to be responsive to different screen widths, so that I can easily view it on a variety of devices. | ![screenshot](documentation/testing/responsiveness/index-responsiveness.gif)|
 
 ## Bugs
 
-🛑🛑🛑🛑🛑🛑🛑🛑🛑🛑-START OF NOTES (to be deleted)
+### 1 - Menu Options Misaligned with Logo
+![screenshot](documentation/bugs/bug-1-before.png)
 
-This section is primarily used for JavaScript and Python applications,
-but feel free to use this section to document any HTML/CSS bugs you might run into.
+To fix this, I reviewed the Code Institute's tutorials on flexbox. I realised that I had not properly understood the justify-content property, and thought that I had to apply "display:flex" to elements that were to be flexed, not just the container in which things would be flexed. Shortly after, the navbar looked like this:
 
-It's very important to document any bugs you've discovered while developing the project.
-Make sure to include any necessary steps you've implemented to fix the bug(s) as well.
+![screenshot](documentation/bugs/bug-1-after.png)
 
-**PRO TIP**: screenshots of bugs are extremely helpful, and go a long way!
+While this wasn't yet the final version of the navbar, it represented a better example of flexbox and I slowly became more comfortable with using flexbox afterwards. 
 
-🛑🛑🛑🛑🛑🛑🛑🛑🛑🛑-END OF NOTES (to be deleted)
+### 2 - Horizontal Overflow
 
-- JS Uncaught ReferenceError: `foobar` is undefined/not defined
+Horizontal overflow is something which I myself find annoying when I come across it online. 
 
-    ![screenshot](documentation/bugs/bug01.png)
+![screenshot](documentation/bugs/bug-2-before.png)
 
-    - To fix this, I _____________________.
+After examining the max-width properties within rules applied to the body element below, the overflow was removed. 
 
-- JS `'let'` or `'const'` or `'template literal syntax'` or `'arrow function syntax (=>)'` is available in ES6 (use `'esversion: 11'`) or Mozilla JS extensions (use moz).
+![screenshot](documentation/bugs/bug-2-after.png)
 
-    ![screenshot](documentation/bugs/bug02.png)
+### 3 - Anchor Element not Justified
 
-    - To fix this, I _____________________.
+The call-to-action button (unstyled here in an earlier version) was aligned to the left-hand side of the screen. 
 
-- Python `'ModuleNotFoundError'` when trying to import module from imported package
+![screenshot](documentation/bugs/bug-3-before.png)
 
-    ![screenshot](documentation/bugs/bug03.png)
+I eventually realised that I had targeted this anchor element incorrectly. After refactoring my code, the anchor element became centered. 
 
-    - To fix this, I _____________________.
+![screenshot](documentation/bugs/bug-3-fix.png)
 
-- Django `TemplateDoesNotExist` at /appname/path appname/template_name.html
+![screenshot](documentation/bugs/bug-3-after.png)
 
-    ![screenshot](documentation/bugs/bug04.png)
+### 4 - Gap under Header
 
-    - To fix this, I _____________________.
+At tablet width, there was a conspicuous gap between the header and the main section.  
 
-- Python `E501 line too long` (93 > 79 characters)
+![screenshot](documentation/bugs/bug-4-before.png)
 
-    ![screenshot](documentation/bugs/bug04.png)
+Through adjusting the margin-top property of the main element, I managed to remove this gap. 
 
-    - To fix this, I _____________________.
+![screenshot](documentation/bugs/bug-4-after.png)
+
+### 5 - Uneven Appearance of Elements within Flex Container
+
+Although I had correctly arranged the three testimonial boxes into a flex container, they did not have a uniform appearance. 
+
+![screenshot](documentation/bugs/bug-5-before.png)
+
+With some research I came upon the align-items:stretch property. 
+
+![screenshot](documentation/bugs/bug-5-fix.png)
+
+This fixed the problem completely. 
+
+![screenshot](documentation/bugs/bug-5-after.png)
+
+### 6 - Flex Container Not Working
+
+I spent an hour and a half on this bug. 
+
+![screenshot](documentation/bugs/bug-6-before.png)
+
+
+I looked at each individual element in detail, before I realised that there was an empty div in the middle of the flex container which introduced a 7th, empty services-box element and completely disrupted the orderly flow of these six elements. 
+
+![screenshot](documentation/bugs/bug-6-issue.png)
+
+Once this div was removed, the six boxes cooperated reliably with one another. 
+
+![screenshot](documentation/bugs/bug-6-after.png)
+
+### 7 - Testimonial Boxes aligning to the left
+
+The testimonial boxes were not centered. It can be seen below that while the Testimonials Text was centred within the viewport, the testimonial box directly under it relating to Lou McGill was to the left. 
+
+![screenshot](documentation/bugs/bug-7-before.png)
+
+By limiting the width of each viewport to 25vw, this issue was resolved.
+
+![screenshot](documentation/bugs/bug-7-fix.png)
+
+![screenshot](documentation/bugs/bug-7-after.png)
+
+### 8 - Horizontal Overflow on Contact Page
+
+Due to an error in the relationship between the contact form on the right and the text on the left, the contact page for laptop and desktop was skewed in such a way that introduced horizontal overflow.
+
+![screenshot](documentation/bugs/bug-8-before.png)
+
+By placing these elements, which were flex containers themselves, into another flex container which had a flex-direction:row property and a max-width of 60vw, this bug was resolved.
+
+![screenshot](documentation/bugs/bug-8-fix.png)
+
+![screenshot](documentation/bugs/bug-8-after.png)
+
+### 9 - Broken File Path for Easter Egg Icon
+
+Late in development, the icon for the Baby Jay Easter Egg page was missing.
+
+![screenshot](documentation/bugs/bug-9-before.png)
+
+I realised that this was because I had changed the file name in the assets folder, removing capital letters and spaces. However, I had forgotten to reflect these changes in the html code. 
+
+![screenshot](documentation/bugs/bug-9-issue.png)
+
+Once this was rectified, the logo returned.
+
+![screenshot](documentation/bugs/bug-9-fix.png)
+
+
+
+![screenshot](documentation/bugs/bug-9-after.png)
 
 ## Unfixed Bugs
-
-🛑🛑🛑🛑🛑🛑🛑🛑🛑🛑-START OF NOTES (to be deleted)
-
-You will need to mention unfixed bugs and why they were not fixed.
-This section should include shortcomings of the frameworks or technologies used.
-Although time can be a big variable to consider, paucity of time and difficulty understanding
-implementation is not a valid reason to leave bugs unfixed.
-
-If you've identified any unfixed bugs, no matter how small, be sure to list them here.
-It's better to be honest and list them, because if it's not documented and an assessor finds the issue,
-they need to know whether or not you're aware of them as well, and why you've not corrected/fixed them.
-
-Some examples:
-
-🛑🛑🛑🛑🛑🛑🛑🛑🛑🛑-END OF NOTES (to be deleted)
-
-- On devices smaller than 375px, the page starts to have `overflow-x` scrolling.
-
-    ![screenshot](documentation/bugs/unfixed-bug01.png)
-
-    - Attempted fix: I tried to add additional media queries to handle this, but things started becoming too small to read.
-
-- For PP3, when using a helper `clear()` function, any text above the height of the terminal does not clear, and remains when you scroll up.
-
-    ![screenshot](documentation/bugs/unfixed-bug02.png)
-
-    - Attempted fix: I tried to adjust the terminal size, but it only resizes the actual terminal, not the allowable area for text.
-
-- When validating HTML with a semantic `section` element, the validator warns about lacking a header `h2-h6`. This is acceptable.
-
-    ![screenshot](documentation/bugs/unfixed-bug03.png)
-
-    - Attempted fix: this is a known warning and acceptable, and my section doesn't require a header since it's dynamically added via JS.
-
-🛑🛑🛑🛑🛑🛑🛑🛑🛑🛑-START OF NOTES (to be deleted)
-
-If you legitimately cannot find any unfixed bugs or warnings, then use the following sentence:
-
-🛑🛑🛑🛑🛑🛑🛑🛑🛑🛑-END OF NOTES (to be deleted)
 
 > [!NOTE]  
 > There are no remaining bugs that I am aware of.
