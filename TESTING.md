@@ -295,7 +295,7 @@ Once this was rectified, the logo returned.
 
 During my time working on this project, I have noticed that there are three problems raised within Gitpod. 
 
-![screenshot](documentation/unfixed%20bug/unfixed-bug.png)
+![screenshot](documentation/unfixed-bug/unfixed-bug.png)
 
 Having done some research on Stack Overflow, Google, Phind, etc, I believe that this bug may relate to the recent Gitpod migration process that Code Institute has carried out. In any case, it does not seem to have any bearing on the operation of my website, so I have left this bug unaddressed for now. 
 
