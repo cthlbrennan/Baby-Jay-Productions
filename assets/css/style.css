@@ -518,6 +518,10 @@ footer {
     text-align: center;
 }
 
+#contact-form-inputs h4 {
+    color: white;
+}
+
 #contact-form-inputs textarea {
     margin: 1em auto 2em auto;
 }
