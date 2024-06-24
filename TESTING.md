@@ -123,12 +123,12 @@ I have used the recommended [HTML W3C Validator](https://validator.w3.org) to va
 
 | Directory | File | Screenshot | Notes |
 | --- | --- | --- | --- |
-|  | 404.html | ![screenshot](documentation/validation/path-to-screenshot.png) | |
-|  | contact.html | ![screenshot](documentation/validation/path-to-screenshot.png) | |
-|  | easteregg.html | ![screenshot](documentation/validation/path-to-screenshot.png) | |
-|  | index.html | ![screenshot](documentation/validation/path-to-screenshot.png) | |
-|  | services.html | ![screenshot](documentation/validation/path-to-screenshot.png) | |
-|  | submission.html | ![screenshot](documentation/validation/path-to-screenshot.png) | |
+|  | 404.html | ![screenshot](documentation/validation/error-validation.png) | |
+|  | contact.html | ![screenshot](documentation/validation/contact-validation.png) | |
+|  | easteregg.html | ![screenshot](documentation/validation/easteregg-validation.png) | |
+|  | index.html | ![screenshot](documentation/validation/index-validation.png) | |
+|  | services.html | ![screenshot](documentation/validation/services-validation.png) | |
+|  | submission.html | ![screenshot](documentation/validation/submission-validation.png) | |
 
 ### CSS
 

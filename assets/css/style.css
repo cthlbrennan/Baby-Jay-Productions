@@ -270,7 +270,7 @@ main {
     align-self: center;
     text-align: center;
     color: #FFFFFF;
-    font-family: "Fira Mono"sans-serif;
+    font-family: "Fira Mono", sans-serif;
     padding: 5px;
 
 }
@@ -725,9 +725,7 @@ looks acceptable.*/
         display: flex;
         flex-direction: column;
         justify-content: left;
-        align-items: left;
         margin-left: 1em;
-
     }
 
     #contact-form-welcome h3 {
