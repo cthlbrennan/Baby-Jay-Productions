@@ -3,6 +3,34 @@
 > [!NOTE]  
 > Return back to the [README.md](README.md) file.
 
+## Compatibility 
+
+The compatibility of all six pages of the website have been tested on different browsers including Google Chrome, Microsoft Edge and Mozilla Firefox. 
+
+<details>
+<summary> Click here to see Compatibility with Google Chrome </summary>
+
+![Chrome Compatibility](documentation/testing/compatibility/chrome-compatibility.png)
+
+</details>
+
+<details>
+<summary> Click here to see Compatibility with Mozilla Firefox </summary>
+
+![Mozilla Firefox Compatibility](documentation/testing/compatibility/firefox-compatibility.png)
+
+</details>
+
+<details>
+<summary> Click here to see Compatibility with Microsoft Edge </summary>
+
+![Microsoft Edge](documentation/testing/compatibility/edge-compatibility.png)
+
+</details>
+
+It is evident that the website has compatibility with multiple browsers.
+
+
 🛑🛑🛑🛑🛑🛑🛑🛑🛑🛑-START OF NOTES (to be deleted)
 
 In this section, you need to convince the assessors that you have conducted enough testing to legitimately believe that the site works well.
