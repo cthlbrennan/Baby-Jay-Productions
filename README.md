@@ -105,139 +105,139 @@ I've used [Balsamiq](https://balsamiq.com/wireframes) to design my site wirefram
 
 #### Logo
 
-![Feature](documentation/features/baby-jay-productions-logo.png)
+![Logo](documentation/features/baby-jay-productions-logo.png)
 
 Upon entering the page, the logo is apparent in the top left corner, or the very top of the page if viewed on a mobile screen. This tells the user what website they are on. It is also clickable, allowing users to navigate easily and directly back to the home page from any other page. 
 
 #### Navigation Bar
 
-![Feature](documentation/features/navbar.png)
+![Navigation Bar](documentation/features/navbar.png)
 
 Upon entering the page, it is immediately apparent to the user that there is a menu that provides them links to the pages of the website. This makes the page easily navigable for the user. 
 
+#### Dropdown Menu
+
+![Dropdown Menu](documentation/features/dropdown-menu.png)
+
+At mobile and tablet screen width, the menu options are accessed through a dropdown menu via a hamburger icon.
+
 #### Menu Options
 
-![Feature](documentation/features/menu-options-hover.png)
+![Menu Options](documentation/features/menu-options-hover.png)
 
 For desktop computers, if the cursor of the mouse is hovered on the menu options, they will respond by changing colour over 0.4 seconds. This level of interactivity lends an air of professionalism to the business, and provides visual engagement to the user, enticing them to explore more of the website and discover more about the business. 
 
 #### Hero Image on Index Page
 
-![Feature](documentation/features/hero-image-index.png)
+![Hero Image, index.html](documentation/features/hero-image-index.png)
 
 A large image showing Siobhan at work in a recording studio sets the tone for the website, and tells the user about the substance of the business and the industry in which they operate. This is further elucidated by the white text on the slightly transparent green background above the image. 
 
-#### Navigation Bar
-
-![Feature](documentation/features/navbar.png)
-
-Upon entering the page, it is immediately apparent to the user that there is a menu that provides them links to the pages of the website. This makes the page easily navigable for the user. 
-
 #### About Section
 
-![Feature](documentation/features/about-section.png)
+![About Section](documentation/features/about-section.png)
 
 This section provides a concise summary of Siobhan's expertise and experience. The website respects the user's time by cutting right to the core of the business. 
 
 #### Call-to-Action Buttons
 
-![Feature](documentation/features/call-to-action-hover.png)
+![Call-to-Action Buttons](documentation/features/call-to-action-hover.png)
 
 Below the About section, there is a large button which invites the user to click it. This brings the user directly to the Contact Us page. This call-to-action button is a great feature which encourages interaction from the user. It also helps the business, as it encourages potential clients to reach out for a consultation. These are also included underneath the Industry section discussed below, as well as the bottom of the Services page.
 
 #### Industry Section
 
-![Feature](documentation/features/industry-section.png)
+![Industry Section](documentation/features/industry-section.png)
 
 This section gives a synopsis of the podcasting industry in Ireland, while highlighting the need for a professional product that can get ahead of the crowd. Once again, a call-to-action button is included underneath this section, this time leading to the Services page.
 
 #### Testimonials
 
-![Feature](documentation/features/testimonials.png)
+![Testimonials](documentation/features/testimonials.png)
 
 Three testimonials are set out here. At the moment, these images are placeholder AI-generated images taken from the website https://thispersondoesnotexist.com/. Furthermore, the names and comments are fictional and also act as placeholders. 
 
 #### Favicon
 
-![Feature](documentation/features/favicon.png)
+![Favicon](documentation/features/favicon.png)
 
 The pages of the website have a favicon of Baby Jay - an illustration of Siobhan's cat which was made on an open-source software called Inkscape. 
 
 #### Footer
 
-![Feature](documentation/features/footer.png)
+![Footer](documentation/features/footer.png)
 
 The footer is present on every page. It contains contact information (placeholders for email and phone number at the moment) and the logo text in reverse colours. The colours used are a mirror of the header, telling the user visually that they are at the bottom of the page. 
 
 #### Social Media Links
 
-![Feature](documentation/features/social-media-links.png)
+![Social Media Links](documentation/features/social-media-links.png)
 
 The footer also contains icons from https://www.fontawesome.com. These icons can be linked, sending the user to the corresponding social media website in a new tab. Each icon has an Aria label to promote accessibility. At the moment, the links just lead to the home page of each social media website, but these would eventually lead to Siobhan's social media pages once she has them set up in due course.
 
 #### Copyright
 
-![Feature](documentation/features/copyright.png)
+![Copyright Line](documentation/features/copyright.png)
 
 A short sentence regarding copyright is included at the bottom of each page. 
 
 #### Easter Egg Icon
 
-![Feature](documentation/features/easter-egg-icon.png)
+![Easter Egg Icon](documentation/features/easter-egg-icon.png)
 
 In the bottom left corner of the home page, there is an icon which is the same as that which is used for the favicon. Clicking it leads the user to a hidden page. Once again, this icon has a Aria label to promote accessibility for all users. 
 
 #### Easter Egg Page
 
-![Feature](documentation/features/easter-egg-page.png)
+![Easter Egg Page](documentation/features/easter-egg-page.png)
 
 Upon clicking the "easter egg" icon as discussed above, users are led to this page which gives context for the name of the business. The use of an oblique "easter egg" like this gives the website and business an air of creativity and playfulness, while also encouraging users to look thoroughly through the site for any other quirks. 
 
 #### Hero Image on Services Page
 
-![Feature](documentation/features/hero-image-services.png)
+![Hero Image, services.html](documentation/features/hero-image-services.png)
 
 This large image greets the user on the Services page. The image and the accompanying text overlay provides further context on the nature of the business - it is a boutique business that provides custom solutions for the client. Like all other elements of the website, it has been designed to be responsive to different devices. 
 
 #### Services Section
 
-![Feature](documentation/features/services-section.png)
+![Services section](documentation/features/services-section.png)
 
 The services page contains a section comprising six boxes, each with an icon from https://fontawesome.com, a headline, and information on a particular service which Siobhan can provide to prospective clients. This gives users a strong idea of the breadth of skills that Siobhan has, and how she could be of assistance professionally to them.  
 
 #### Interactive Audio
 
-![Feature](documentation/features/interactive-audio.png)
+![Interactive Audio Clips](documentation/features/interactive-audio.png)
 
 The Audio Editing box of the services section contains two audio clips. These are not autoplaying upon the opening of the page, as per best UX practice. The user can use the controls to hear the recordings. The first plays a poor quality piece of audio, the second plays the same audio but restored, thereby showing Siobhan's skill at audio repair to the user. 
 
 #### Contact Form
 
-![Feature](documentation/features/contact-form.png)
+![Contact Form](documentation/features/contact-form.png)
 
 The page has a fully responsive contact form. 
 
 Each of the fields must be complete in order for a form to be submitted, as shown below:
 
-![Feature](documentation/features/contact-name-required.png)
+![Name required](documentation/features/contact-name-required.png)
 
-![Feature](documentation/features/contact-email-required.png)
+![Email address required](documentation/features/contact-email-required.png)
 
-![Feature](documentation/features/contact-message-required.png)
+![Message required](documentation/features/contact-message-required.png)
 
-![Feature](documentation/features/contact-consent-required.png)
+![Consent Required](documentation/features/contact-consent-required.png)
 
-This ensures that Siobhan wouldn't have to deal with incomplete messages that would lack vital contact information, creating a situation where she could miss out on work. This also helps the user avoid forgetting to provide their contact information on their part.  
+This ensures that Siobhan wouldn't have to deal with incomplete messages that would lack vital contact information, creating a situation where she could miss out on work. This also helps the user avoid forgetting to provide their contact information on their part. 
 
 #### Form Submission Page
 
-![Feature](documentation/features/form-submission-page.png)
+![Form Submission Page](documentation/features/form-submission-page.png)
 
 The page appears upon submission of the form. It appears for five seconds, before sending the user back to the home page. This assures the user that their message has been sent. At the moment, there is no database set up for storing messages - this would need to be set up later.
 
 #### 404 Page
 
-![Feature](documentation/features/error-page.png)
+![404 Page](documentation/features/error-page.png)
 
 If there is a 404 error, the user will be sent to the 404 page. This page features a variation of the illustration, with Baby Jay having an angry expression. 
 
