@@ -30,6 +30,45 @@ The compatibility of all six pages of the website have been tested on different 
 
 It is evident that the website has compatibility with multiple browsers.
 
+## Responsiveness
+
+### index.html 
+
+As can be seen below, index.html responds well when tested on different device sizes. At mobile screen-width, there is a hamburger icon/dropdown menu which works effectively. When the screen has the width of a tablet, the hamburger icon is no longer in view, and each of the menu options become visible within the navigation bar. The responsiveness of the About and Industry sections is evident, as is that of the testimonial section. The hero image also remains centered and covers the full width of the screen at any time. 
+
+![index.html responsiveness](documentation/testing/responsiveness/index-responsiveness.gif)
+
+### services.html
+
+The hero image for the services.html page also remains centered and reacts as expected. The dropdown menu and nav bar also respond as expected, as per index.html. The six boxes of the services section are lined up in a column in mobile view, then in two columns of three at tablet width, then three columns of two for laptop and desktop. We can also see in the .gif below that the various elements of the footer, including the contact details, the logo, and the social media link icons expand and retract proportionate to the width of the screen, always filling the full width of the footer in a responsive and proportionate manner.  
+
+![services.html responsiveness](documentation/testing/responsiveness/services-responsiveness.gif)
+
+### contact.html
+
+This main section of this page is comprised of two main elements - the text inviting users to submit a query, and the form itself. At mobile and tablet width, these elements are stacked on one another in a column. At laptop and desktop width, they are aligned in a row, side-by-side. They respond proportionately to the width of the screen. 
+
+![contact.html responsiveness](documentation/testing/responsiveness/contact-responsiveness.gif)
+
+
+### submission.html
+
+This is a very simple page, with one small body of text comprising a heading and a paragraph. It remains centered within the page at every screen width, performing well in its role. 
+
+![submission.html responsiveness](documentation/testing/responsiveness/submission-responsiveness.gif)
+
+### easteregg.html
+
+Once again, a very simple page which can be seen below to respond well to different screen widths. 
+
+![easteregg.html responsiveness](documentation/testing/responsiveness/easter-egg-responsiveness.gif)
+
+### 404.html
+
+Again, this is a very simple page which can be seen below to respond proportionately to different widths.  
+
+![404.html responsiveness](documentation/testing/responsiveness/error-responsiveness.gif)
+
 
 🛑🛑🛑🛑🛑🛑🛑🛑🛑🛑-START OF NOTES (to be deleted)
 
