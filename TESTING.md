@@ -106,37 +106,48 @@ I am confident that the features of my website work correctly.
 
 ## Code Validation
 
-🛑🛑🛑🛑🛑🛑🛑🛑🛑🛑-START OF NOTES (to be deleted)
-
-Use the space to discuss code validation for any of your own code files (where applicable).
-You are not required to validate external libraries/frameworks, such as imported Bootstrap, Materialize, Font Awesome, etc.
-
-**IMPORTANT**: You must provide a screenshot for each file you validate.
-
-**PRO TIP**: Always validate the live site pages, not your local code. There could be subtle/hidden differences.
-
-🛑🛑🛑🛑🛑🛑🛑🛑🛑🛑-END OF NOTES (to be deleted)
-
 ### HTML
 
 I have used the recommended [HTML W3C Validator](https://validator.w3.org) to validate all of my HTML files.
 
-| Directory | File | Screenshot | Notes |
-| --- | --- | --- | --- |
-|  | 404.html | ![screenshot](documentation/validation/error-validation.png) | |
-|  | contact.html | ![screenshot](documentation/validation/contact-validation.png) | |
-|  | easteregg.html | ![screenshot](documentation/validation/easteregg-validation.png) | |
-|  | index.html | ![screenshot](documentation/validation/index-validation.png) | |
-|  | services.html | ![screenshot](documentation/validation/services-validation.png) | |
-|  | submission.html | ![screenshot](documentation/validation/submission-validation.png) | |
+| File | Screenshot | 
+| --- | --- |
+| 404.html | ![screenshot](documentation/validation/html-validation/error-validation.png) |
+| contact.html | ![screenshot](documentation/validation/html-validation/contact-validation.png) |
+| easteregg.html | ![screenshot](documentation/validation/html-validation/easteregg-validation.png) |
+| index.html | ![screenshot](documentation/validation/html-validation/index-validation.png) |
+| services.html | ![screenshot](documentation/validation/html-validation/services-validation.png) |
+| submission.html | ![screenshot](documentation/validation/html-validation/submission-validation.png) |
 
 ### CSS
 
-I have used the recommended [CSS Jigsaw Validator](https://jigsaw.w3.org/css-validator) to validate all of my CSS files.
+I have used the recommended [CSS Jigsaw Validator](https://jigsaw.w3.org/css-validator) to validate my CSS file.
 
-| Directory | File | Screenshot | Notes |
-| --- | --- | --- | --- |
-| assets | style.css | ![screenshot](documentation/validation/path-to-screenshot.png) | |
+Initially, I had two errors with my CSS Validation. 
+
+![CSS Errors](documentation/validation/css-validation/css-errors.png)
+
+One error related to a missing comma between "Fira Mono" and "sans-serif" in a rule on line 269.
+
+![First Error](documentation/validation/css-validation/css-errors-1.png)
+
+This was the fix:
+
+![First Fix](documentation/validation/css-validation/css-errors-2.png)
+
+The second error related to the wrong use of "align-items:left" for a rule on line 724.
+
+![Second Error](documentation/validation/css-validation/css-errors-3.png)
+
+The fix was just to remove this line altogether, which had no effect on the styling of the relevant element in contact.html:
+
+![Second Fix](documentation/validation/css-validation/css-errors-4.png)
+
+As can be seen below, my CSS file was subsequently validated with no errors.
+
+| File | Screenshot |
+| --- | --- |
+| style.css | ![screenshot](documentation/validation/css-validation/css-validation.png) | |
 
 
 
